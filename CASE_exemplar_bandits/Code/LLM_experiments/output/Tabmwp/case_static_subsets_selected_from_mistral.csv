@@ -1,0 +1,611 @@
+,question,choices,answer,unit,table_title,table,table_for_pd,row_num,column_num,solution,ques_type,ans_type,grade,split,cluster,index
+29353,Haley recalled how many goals she had made in soccer practice each day. What is the median of the numbers?,,5,,Goals made,"Day | Number of goals
+Thursday | 7
+Friday | 2
+Saturday | 7
+Sunday | 5
+Monday | 0","{'Day': ['Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday'], 'Number of goals': ['7', '2', '7', '5', '0']}",6,2,"Read the numbers from the table.
+
+7, 2, 7, 5, 0
+
+First, arrange the numbers from least to greatest:
+
+0, 2, 5, 7, 7
+
+Now find the number in the middle.
+
+0, 2, 5, 7, 7
+
+The number in the middle is 5.
+
+The median is 5.",free_text,integer_number,5,train,0,35
+4525,Connor and his brother are at a store shopping for a beanbag chair for their school's library. The store sells beanbag chairs with different fabrics and types of filling. What is the probability that a randomly selected beanbag chair is made from suede and is filled with beads? Simplify any fractions.,,4/19,,," | Foam | Beads
+Velvet | 4 | 6
+Suede | 5 | 4","{'': ['Velvet', 'Suede'], 'Foam': ['4', '5'], 'Beads': ['6', '4']}",3,3,"Let A be the event ""the beanbag chair is made from suede"" and B be the event ""the beanbag chair is filled with beads"".
+To find the probability that a beanbag chair is made from suede and is filled with beads, first identify the sample space and the event.
+The outcomes in the sample space are the different beanbag chairs. Each beanbag chair is equally likely to be selected, so this is a uniform probability model.
+The event is A and B, ""the beanbag chair is made from suede and is filled with beads"".
+Since this is a uniform probability model, count the number of outcomes in the event A and B and count the total number of outcomes. Then, divide them to compute the probability.
+
+Find the number of outcomes in the event A and B.
+A and B is the event ""the beanbag chair is made from suede and is filled with beads"", so look at the table to see how many beanbag chairs are made from suede and are filled with beads.
+The number of beanbag chairs that are made from suede and are filled with beads is 4.
+
+Find the total number of outcomes.
+Add all the numbers in the table to find the total number of beanbag chairs.
+4 + 5 + 6 + 4 = 19
+
+Find P(A and B).
+Since all outcomes are equally likely, the probability of event A and B is the number of outcomes in event A and B divided by the total number of outcomes.
+P(A and B) = \frac{# of outcomes in A and B}{total # of outcomes}
+ = \frac{4}{19}
+The probability that a beanbag chair is made from suede and is filled with beads is \frac{4}{19}.",free_text,decimal_number,8,train,1,1051
+30763,How much more does a blender cost than a CD player?,,11.24,$,,"CD player | $18.55
+radio | $20.46
+telephone | $48.32
+CD | $17.75
+blender | $29.79
+microphone | $22.09","{'Column 1': ['CD player', 'radio', 'telephone', 'CD', 'blender', 'microphone'], 'Column 2': ['$18.55', '$20.46', '$48.32', '$17.75', '$29.79', '$22.09']}",6,2,"Subtract the price of a CD player from the price of a blender.
+
+$29.79 - $18.55 = $11.24
+
+A blender costs $11.24 more than a CD player.",free_text,decimal_number,5,train,2,14395
+5342,"Look at the table. Then answer the question. At a price of $1,395, is there a shortage or a surplus?","['shortage', 'surplus']",surplus,,,"Price | Quantity demanded | Quantity supplied
+$915 | 21,100 | 2,600
+$1,075 | 17,700 | 6,300
+$1,235 | 14,300 | 10,000
+$1,395 | 10,900 | 13,700
+$1,555 | 7,500 | 17,400","{'Price': ['$915', '$1,075', '$1,235', '$1,395', '$1,555'], 'Quantity demanded': ['21,100', '17,700', '14,300', '10,900', '7,500'], 'Quantity supplied': ['2,600', '6,300', '10,000', '13,700', '17,400']}",6,3,"At the price of $1,395, the quantity demanded is less than the quantity supplied. There is too much of the good or service for sale at that price. So, there is a surplus.
+",multi_choice,boolean_text,5,train,3,3150
+30074,Look at the following schedule. How long does it take to get from the school to the mall?,"['1 hour and 45 minutes', '2 hours and 30 minutes', '15 minutes', '30 minutes']",2 hours and 30 minutes,,Bus schedule,"the post office | 8:00 A.M. | 9:15 A.M. | 9:45 A.M.
+the library | 9:00 A.M. | 10:15 A.M. | 10:45 A.M.
+the doctor's office | 9:30 A.M. | 10:45 A.M. | 11:15 A.M.
+the playground | 10:30 A.M. | 11:45 A.M. | 12:15 P.M.
+the school | 10:45 A.M. | 12:00 P.M. | 12:30 P.M.
+the grocery store | 11:30 A.M. | 12:45 P.M. | 1:15 P.M.
+the science museum | 12:30 P.M. | 1:45 P.M. | 2:15 P.M.
+the mall | 1:15 P.M. | 2:30 P.M. | 3:00 P.M.","{'Column 1': ['the post office', 'the library', ""the doctor's office"", 'the playground', 'the school', 'the grocery store', 'the science museum', 'the mall'], 'Column 2': ['8:00 A.M.', '9:00 A.M.', '9:30 A.M.', '10:30 A.M.', '10:45 A.M.', '11:30 A.M.', '12:30 P.M.', '1:15 P.M.'], 'Column 3': ['9:15 A.M.', '10:15 A.M.', '10:45 A.M.', '11:45 A.M.', '12:00 P.M.', '12:45 P.M.', '1:45 P.M.', '2:30 P.M.'], 'Column 4': ['9:45 A.M.', '10:45 A.M.', '11:15 A.M.', '12:15 P.M.', '12:30 P.M.', '1:15 P.M.', '2:15 P.M.', '3:00 P.M.']}",8,4,"Read the times in the first column for the school and the mall.
+
+Find the elapsed time between 10:45 A. M. and 1:15 P. M. The elapsed time is 2 hours and 30 minutes.
+
+No matter which column of times you look at, the elapsed time is always 2 hours and 30 minutes.",multi_choice,other_text,4,train,4,7349
+11854,The students in Mr. Robertson's class recorded the number of siblings that each has. How many students have fewer than 2 siblings?,,31,,Siblings,"Number of siblings | Frequency
+0 | 19
+1 | 12
+2 | 13
+3 | 9","{'Number of siblings': ['0', '1', '2', '3'], 'Frequency': ['19', '12', '13', '9']}",5,2,"Find the rows for 0 and 1 sibling. Add the frequencies for these rows.
+
+Add:
+
+19 + 12 = 31
+
+31 students have fewer than 2 siblings.",free_text,integer_number,7,train,0,12081
+23529,Brittany conducted a blind taste test on some of her friends in order to determine if organic fruits tasted different than non-organic fruits. Each friend ate one type of fruit. What is the probability that a randomly selected friend preferred organic and tasted peaches? Simplify any fractions.,,7/19,,," | Apples | Peaches
+Organic | 2 | 7
+Non-organic | 7 | 3","{'': ['Organic', 'Non-organic'], 'Apples': ['2', '7'], 'Peaches': ['7', '3']}",3,3,"Let A be the event ""the friend preferred organic"" and B be the event ""the friend tasted peaches"".
+To find the probability that a friend preferred organic and tasted peaches, first identify the sample space and the event.
+The outcomes in the sample space are the different friends. Each friend is equally likely to be selected, so this is a uniform probability model.
+The event is A and B, ""the friend preferred organic and tasted peaches"".
+Since this is a uniform probability model, count the number of outcomes in the event A and B and count the total number of outcomes. Then, divide them to compute the probability.
+
+Find the number of outcomes in the event A and B.
+A and B is the event ""the friend preferred organic and tasted peaches"", so look at the table to see how many friends preferred organic and tasted peaches.
+The number of friends who preferred organic and tasted peaches is 7.
+
+Find the total number of outcomes.
+Add all the numbers in the table to find the total number of friends.
+2 + 7 + 7 + 3 = 19
+
+Find P(A and B).
+Since all outcomes are equally likely, the probability of event A and B is the number of outcomes in event A and B divided by the total number of outcomes.
+P(A and B) = \frac{# of outcomes in A and B}{total # of outcomes}
+ = \frac{7}{19}
+The probability that a friend preferred organic and tasted peaches is \frac{7}{19}.",free_text,decimal_number,8,train,1,14031
+4945,How much money does Hannah need to buy a ballet ticket and 7 orchestra tickets?,,443,$,,"dance performance ticket | $29.00
+play ticket | $32.00
+figure skating ticket | $41.00
+ballet ticket | $37.00
+opera ticket | $76.00
+orchestra ticket | $58.00","{'Column 1': ['dance performance ticket', 'play ticket', 'figure skating ticket', 'ballet ticket', 'opera ticket', 'orchestra ticket'], 'Column 2': ['$29.00', '$32.00', '$41.00', '$37.00', '$76.00', '$58.00']}",6,2,"Find the cost of 7 orchestra tickets.
+
+$58.00 × 7 = $406.00
+
+Now find the total cost.
+
+$37.00 + $406.00 = $443.00
+
+Hannah needs $443.00.",free_text,integer_number,8,train,2,9361
+32013,"Look at the table. Then answer the question. At a price of $1,045, is there a shortage or a surplus?","['shortage', 'surplus']",surplus,,,"Price | Quantity demanded | Quantity supplied
+$665 | 15,500 | 16,200
+$855 | 13,700 | 17,300
+$1,045 | 11,900 | 18,400
+$1,235 | 10,100 | 19,500
+$1,425 | 8,300 | 20,600","{'Price': ['$665', '$855', '$1,045', '$1,235', '$1,425'], 'Quantity demanded': ['15,500', '13,700', '11,900', '10,100', '8,300'], 'Quantity supplied': ['16,200', '17,300', '18,400', '19,500', '20,600']}",6,3,"At the price of $1,045, the quantity demanded is less than the quantity supplied. There is too much of the good or service for sale at that price. So, there is a surplus.
+",multi_choice,boolean_text,5,train,3,9826
+7900,Look at the following schedule. Marshall got on the train at Rollercoaster Land at 5.45 A.M. What time will he get to Floral Gardens?,"['3:30 P.M.', '5:00 P.M.', '5:15 A.M.', '6:45 A.M.']",6:45 A.M.,,Train schedule,"Comfy Pillows Resort | 4:15 A.M. | 2:30 P.M. | 10:00 P.M.
+Skyscraper City | 4:45 A.M. | 3:00 P.M. | 10:30 P.M.
+Pleasant River Campground | 5:15 A.M. | 3:30 P.M. | 11:00 P.M.
+Rollercoaster Land | 5:45 A.M. | 4:00 P.M. | 11:30 P.M.
+Floral Gardens | 6:45 A.M. | 5:00 P.M. | 12:30 A.M.
+Chickenville | 7:15 A.M. | 5:30 P.M. | 1:00 A.M.
+Happy Cow Farm | 7:45 A.M. | 6:00 P.M. | 1:30 A.M.","{'Column 1': ['Comfy Pillows Resort', 'Skyscraper City', 'Pleasant River Campground', 'Rollercoaster Land', 'Floral Gardens', 'Chickenville', 'Happy Cow Farm'], 'Column 2': ['4:15 A.M.', '4:45 A.M.', '5:15 A.M.', '5:45 A.M.', '6:45 A.M.', '7:15 A.M.', '7:45 A.M.'], 'Column 3': ['2:30 P.M.', '3:00 P.M.', '3:30 P.M.', '4:00 P.M.', '5:00 P.M.', '5:30 P.M.', '6:00 P.M.'], 'Column 4': ['10:00 P.M.', '10:30 P.M.', '11:00 P.M.', '11:30 P.M.', '12:30 A.M.', '1:00 A.M.', '1:30 A.M.']}",7,4,"Find 5:45 A. M. in the row for Rollercoaster Land. That column shows the schedule for the train that Marshall is on.
+
+Look down the column until you find the row for Floral Gardens.
+
+Marshall will get to Floral Gardens at 6:45 A. M.",multi_choice,extractive_text,4,train,4,8071
+27875,The transportation company tracked the number of train tickets sold in the past 7 days. What is the range of the numbers?,,23,,Train tickets sold,"Day | Number of tickets
+Monday | 36
+Tuesday | 43
+Wednesday | 46
+Thursday | 59
+Friday | 37
+Saturday | 46
+Sunday | 51","{'Day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'Number of tickets': ['36', '43', '46', '59', '37', '46', '51']}",8,2,"Read the numbers from the table.
+
+36, 43, 46, 59, 37, 46, 51
+
+First, find the greatest number. The greatest number is 59.
+
+Next, find the least number. The least number is 36.
+
+Subtract the least number from the greatest number:
+
+59 − 36 = 23
+
+The range is 23.",free_text,integer_number,5,train,0,14605
+24226,A pottery factory kept track of the number of broken plates per shipment last week. How many shipments had exactly 73 broken plates?,,2,shipments,Broken plates per shipment,"Stem | Leaf 
+4 | 2, 7, 9, 9, 9
+5 | 1
+6 | 9
+7 | 2, 2, 3, 3, 5
+8 | 
+9 | 0","{'Stem': ['4', '5', '6', '7', '8', '9'], 'Leaf ': ['2, 7, 9, 9, 9', '1', '9', '2, 2, 3, 3, 5', '', '0']}",7,2,"For the number 73, the stem is 7, and the leaf is 3. Find the row where the stem is 7. In that row, count all the leaves equal to 3.
+
+You counted 2 leaves, which are blue in the stem-and-leaf plot above. 2 shipments had exactly 73 broken plates.",free_text,integer_number,8,train,1,1975
+23269,Kylie has $0.05. Does she have enough to buy a small pink bead and a purple and red clay bead?,"['yes', 'no']",no,,,"purple and red clay bead | $0.02
+small pink bead | $0.04
+pearl bead | $0.07
+round silver bead | $0.01
+brown cat's eye bead | $0.08
+orange glass bead | $0.07","{'Column 1': ['purple and red clay bead', 'small pink bead', 'pearl bead', 'round silver bead', ""brown cat's eye bead"", 'orange glass bead'], 'Column 2': ['$0.02', '$0.04', '$0.07', '$0.01', '$0.08', '$0.07']}",6,2,"Add the price of a small pink bead and the price of a purple and red clay bead:
+
+$0.04 + $0.02 = $0.06
+
+$0.06 is more than $0.05. Kylie does not have enough money.",multi_choice,boolean_text,4,train,2,5337
+34320,"Look at the table. Then answer the question. At a price of $885, is there a shortage or a surplus?","['shortage', 'surplus']",surplus,,,"Price | Quantity demanded | Quantity supplied
+$165 | 17,900 | 6,400
+$345 | 15,100 | 8,900
+$525 | 12,300 | 11,400
+$705 | 9,500 | 13,900
+$885 | 6,700 | 16,400","{'Price': ['$165', '$345', '$525', '$705', '$885'], 'Quantity demanded': ['17,900', '15,100', '12,300', '9,500', '6,700'], 'Quantity supplied': ['6,400', '8,900', '11,400', '13,900', '16,400']}",6,3,"At the price of $885, the quantity demanded is less than the quantity supplied. There is too much of the good or service for sale at that price. So, there is a surplus.
+",multi_choice,boolean_text,5,train,3,2865
+22781,Look at the following schedule. Doug just missed the 3.00 A.M. train at Chickenville. How long does he have to wait until the next train?,"['6 hours and 30 minutes', '6 hours and 45 minutes', '8 hours and 45 minutes', '9 hours']",9 hours,,Train schedule,"Chickenville | 3:00 A.M. | 12:00 P.M. | 3:30 P.M.
+Floral Gardens | 3:45 A.M. | 12:45 P.M. | 4:15 P.M.
+Pleasant River Campground | 4:45 A.M. | 1:45 P.M. | 5:15 P.M.
+Happy Cow Farm | 5:15 A.M. | 2:15 P.M. | 5:45 P.M.
+Rocky Ravine Town | 5:45 A.M. | 2:45 P.M. | 6:15 P.M.","{'Column 1': ['Chickenville', 'Floral Gardens', 'Pleasant River Campground', 'Happy Cow Farm', 'Rocky Ravine Town'], 'Column 2': ['3:00 A.M.', '3:45 A.M.', '4:45 A.M.', '5:15 A.M.', '5:45 A.M.'], 'Column 3': ['12:00 P.M.', '12:45 P.M.', '1:45 P.M.', '2:15 P.M.', '2:45 P.M.'], 'Column 4': ['3:30 P.M.', '4:15 P.M.', '5:15 P.M.', '5:45 P.M.', '6:15 P.M.']}",5,4,"Find 3:00 A. M. in the row for Chickenville.
+
+Look for the next train in that row.
+
+The next train is at 12:00 P. M.
+
+Find the elapsed time. The elapsed time is 9 hours.",multi_choice,other_text,4,train,4,8180
+19875,A race car driver kept track of how many laps he drove in the past 5 days. What is the median of the numbers?,,9,,Laps driven,"Day | Number of laps
+Thursday | 8
+Friday | 9
+Saturday | 8
+Sunday | 10
+Monday | 9","{'Day': ['Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday'], 'Number of laps': ['8', '9', '8', '10', '9']}",6,2,"Read the numbers from the table.
+
+8, 9, 8, 10, 9
+
+First, arrange the numbers from least to greatest:
+
+8, 8, 9, 9, 10
+
+Now find the number in the middle.
+
+8, 8, 9, 9, 10
+
+The number in the middle is 9.
+
+The median is 9.",free_text,integer_number,6,train,0,12186
+5407,"A stock broker followed the stock prices of a certain set of companies. Which company's stock cost more on Wednesday, Houston Sporting Goods or Watson and Partners?","['Houston Sporting Goods', 'Watson and Partners']",Watson and Partners,,Stock prices,"Company | Tuesday | Wednesday
+Houston Sporting Goods | $8 | $4
+Watson and Partners | $9 | $16
+Thompson Corporation | $5 | $14
+Jonas Incorporated | $15 | $4","{'Company': ['Houston Sporting Goods', 'Watson and Partners', 'Thompson Corporation', 'Jonas Incorporated'], 'Tuesday': ['$8', '$9', '$5', '$15'], 'Wednesday': ['$4', '$16', '$14', '$4']}",5,3,"Find the Wednesday column. Compare the numbers in this column for Houston Sporting Goods and Watson and Partners.
+
+$16.00 is more than $4.00. On Wednesday, Watson and Partners's stock cost more.",multi_choice,extractive_text,4,train,1,5758
+35333,How much money does Maureen need to buy 8 wooden stools and 7 nightstands?,,770.52,$,,"footstool | $27.64
+bookcase | $76.01
+rocking chair | $67.49
+nightstand | $69.40
+wooden stool | $35.59
+set of bunk beds | $71.30","{'Column 1': ['footstool', 'bookcase', 'rocking chair', 'nightstand', 'wooden stool', 'set of bunk beds'], 'Column 2': ['$27.64', '$76.01', '$67.49', '$69.40', '$35.59', '$71.30']}",6,2,"Find the cost of 8 wooden stools.
+
+$35.59 × 8 = $284.72
+
+Find the cost of 7 nightstands.
+
+$69.40 × 7 = $485.80
+
+Now find the total cost.
+
+$284.72 + $485.80 = $770.52
+
+Maureen needs $770.52.",free_text,decimal_number,7,train,2,9666
+7968,"Look at the table. Then answer the question. At a price of $920, is there a shortage or a surplus?","['shortage', 'surplus']",surplus,,,"Price | Quantity demanded | Quantity supplied
+$380 | 19,200 | 3,100
+$560 | 14,700 | 5,300
+$740 | 10,200 | 7,500
+$920 | 5,700 | 9,700
+$1,100 | 1,200 | 11,900","{'Price': ['$380', '$560', '$740', '$920', '$1,100'], 'Quantity demanded': ['19,200', '14,700', '10,200', '5,700', '1,200'], 'Quantity supplied': ['3,100', '5,300', '7,500', '9,700', '11,900']}",6,3,"At the price of $920, the quantity demanded is less than the quantity supplied. There is too much of the good or service for sale at that price. So, there is a surplus.
+",multi_choice,boolean_text,5,train,3,3217
+26675,Look at the following schedule. Tyrone just missed the 2.15 P.M. train at Newton. How long does he have to wait until the next train?,"['1 hour', '15 minutes', '30 minutes', '45 minutes']",45 minutes,,Train schedule,"Danville | 7:15 A.M. | 8:30 A.M. | 9:15 A.M. | 10:15 A.M. | 11:00 A.M.
+Washington | 8:00 A.M. | 9:15 A.M. | 10:00 A.M. | 11:00 A.M. | 11:45 A.M.
+Greenwood | 9:00 A.M. | 10:15 A.M. | 11:00 A.M. | 12:00 P.M. | 12:45 P.M.
+Arcadia | 10:30 A.M. | 11:45 A.M. | 12:30 P.M. | 1:30 P.M. | 2:15 P.M.
+Vindale | 12:15 P.M. | 1:30 P.M. | 2:15 P.M. | 3:15 P.M. | 4:00 P.M.
+Newton | 1:00 P.M. | 2:15 P.M. | 3:00 P.M. | 4:00 P.M. | 4:45 P.M.
+Brookfield | 1:45 P.M. | 3:00 P.M. | 3:45 P.M. | 4:45 P.M. | 5:30 P.M.
+Dayton | 2:30 P.M. | 3:45 P.M. | 4:30 P.M. | 5:30 P.M. | 6:15 P.M.","{'Column 1': ['Danville', 'Washington', 'Greenwood', 'Arcadia', 'Vindale', 'Newton', 'Brookfield', 'Dayton'], 'Column 2': ['7:15 A.M.', '8:00 A.M.', '9:00 A.M.', '10:30 A.M.', '12:15 P.M.', '1:00 P.M.', '1:45 P.M.', '2:30 P.M.'], 'Column 3': ['8:30 A.M.', '9:15 A.M.', '10:15 A.M.', '11:45 A.M.', '1:30 P.M.', '2:15 P.M.', '3:00 P.M.', '3:45 P.M.'], 'Column 4': ['9:15 A.M.', '10:00 A.M.', '11:00 A.M.', '12:30 P.M.', '2:15 P.M.', '3:00 P.M.', '3:45 P.M.', '4:30 P.M.'], 'Column 5': ['10:15 A.M.', '11:00 A.M.', '12:00 P.M.', '1:30 P.M.', '3:15 P.M.', '4:00 P.M.', '4:45 P.M.', '5:30 P.M.'], 'Column 6': ['11:00 A.M.', '11:45 A.M.', '12:45 P.M.', '2:15 P.M.', '4:00 P.M.', '4:45 P.M.', '5:30 P.M.', '6:15 P.M.']}",8,6,"Find 2:15 P. M. in the row for Newton.
+
+Look for the next train in that row.
+
+The next train is at 3:00 P. M.
+
+Find the elapsed time. The elapsed time is 45 minutes.",multi_choice,other_text,4,train,4,14947
+12249,Some students compared how many blocks they live from school. What is the mean of the numbers?,,7,,Blocks from school,"Name | Number of blocks
+Steven | 3
+Albert | 1
+Ted | 3
+Erin | 5
+Ross | 18
+Bert | 13
+Paul | 6","{'Name': ['Steven', 'Albert', 'Ted', 'Erin', 'Ross', 'Bert', 'Paul'], 'Number of blocks': ['3', '1', '3', '5', '18', '13', '6']}",8,2,"Read the numbers from the table.
+
+3, 1, 3, 5, 18, 13, 6
+
+First, count how many numbers are in the group.
+
+There are 7 numbers.
+
+Now add all the numbers together:
+
+3 + 1 + 3 + 5 + 18 + 13 + 6 = 49
+
+Now divide the sum by the number of numbers:
+
+49 ÷ 7 = 7
+
+The mean is 7.",free_text,integer_number,5,train,0,7651
+7837,A bakery recorded how many cupcakes it sold in the past 3 days. How many cupcakes in total did the bakery sell on Tuesday and Thursday?,,258,cupcakes,Cupcakes sold,"Day | Number of cupcakes
+Tuesday | 147
+Wednesday | 683
+Thursday | 111","{'Day': ['Tuesday', 'Wednesday', 'Thursday'], 'Number of cupcakes': ['147', '683', '111']}",4,2,"Find the numbers in the table.
+
+Tuesday: 147
+Thursday: 111
+
+Now add: 147 + 111 = 258.
+
+The bakery sold 258 cupcakes on Tuesday and Thursday.",free_text,integer_number,3,train,1,10727
+35134,How much money does Deion need to buy a poetry book and a textbook?,,26.30,$,,"textbook | $12.79
+poetry book | $13.51
+science book | $11.55
+history book | $15.49
+crossword puzzle book | $24.85","{'Column 1': ['textbook', 'poetry book', 'science book', 'history book', 'crossword puzzle book'], 'Column 2': ['$12.79', '$13.51', '$11.55', '$15.49', '$24.85']}",5,2,"Add the price of a poetry book and the price of a textbook:
+
+$13.51 + $12.79 = $26.30
+
+Deion needs $26.30.",free_text,decimal_number,5,train,2,712
+25916,"Look at the table. Then answer the question. At a price of $755, is there a shortage or a surplus?","['shortage', 'surplus']",shortage,,,"Price | Quantity demanded | Quantity supplied
+$615 | 17,000 | 8,800
+$685 | 13,900 | 9,400
+$755 | 10,800 | 10,000
+$825 | 7,700 | 10,600
+$895 | 4,600 | 11,200","{'Price': ['$615', '$685', '$755', '$825', '$895'], 'Quantity demanded': ['17,000', '13,900', '10,800', '7,700', '4,600'], 'Quantity supplied': ['8,800', '9,400', '10,000', '10,600', '11,200']}",6,3,"At the price of $755, the quantity demanded is greater than the quantity supplied. There is not enough of the good or service for sale at that price. So, there is a shortage.
+",multi_choice,boolean_text,5,train,3,14957
+2663,Look at the following schedule. Alan just missed the 12.45 P.M. bus at the famous bridge. What time is the next bus?,"['1:30 P.M.', '10:45 A.M.', '2:15 P.M.', '12:45 P.M.']",1:30 P.M.,,Tour bus schedule,"old building | 8:00 A.M. | 10:00 A.M. | 10:15 A.M. | 11:00 A.M.
+university campus | 8:45 A.M. | 10:45 A.M. | 11:00 A.M. | 11:45 A.M.
+shopping district | 9:30 A.M. | 11:30 A.M. | 11:45 A.M. | 12:30 P.M.
+the riverfront | 9:45 A.M. | 11:45 A.M. | 12:00 P.M. | 12:45 P.M.
+famous bridge | 10:30 A.M. | 12:30 P.M. | 12:45 P.M. | 1:30 P.M.
+landmark sculpture | 11:15 A.M. | 1:15 P.M. | 1:30 P.M. | 2:15 P.M.
+the aquarium | 12:15 P.M. | 2:15 P.M. | 2:30 P.M. | 3:15 P.M.
+the zoo | 1:00 P.M. | 3:00 P.M. | 3:15 P.M. | 4:00 P.M.","{'Column 1': ['old building', 'university campus', 'shopping district', 'the riverfront', 'famous bridge', 'landmark sculpture', 'the aquarium', 'the zoo'], 'Column 2': ['8:00 A.M.', '8:45 A.M.', '9:30 A.M.', '9:45 A.M.', '10:30 A.M.', '11:15 A.M.', '12:15 P.M.', '1:00 P.M.'], 'Column 3': ['10:00 A.M.', '10:45 A.M.', '11:30 A.M.', '11:45 A.M.', '12:30 P.M.', '1:15 P.M.', '2:15 P.M.', '3:00 P.M.'], 'Column 4': ['10:15 A.M.', '11:00 A.M.', '11:45 A.M.', '12:00 P.M.', '12:45 P.M.', '1:30 P.M.', '2:30 P.M.', '3:15 P.M.'], 'Column 5': ['11:00 A.M.', '11:45 A.M.', '12:30 P.M.', '12:45 P.M.', '1:30 P.M.', '2:15 P.M.', '3:15 P.M.', '4:00 P.M.']}",8,5,"Find 12:45 P. M. in the row for the famous bridge.
+
+Look for the next bus in that row.
+
+The next bus is at 1:30 P. M.",multi_choice,extractive_text,4,train,4,9204
+28293,A grocery store recorded how many customers visited the store each day. What is the mode of the numbers?,,26,,Grocery store customers,"Day | Number of customers
+Thursday | 38
+Friday | 26
+Saturday | 38
+Sunday | 26
+Monday | 37
+Tuesday | 37
+Wednesday | 26","{'Day': ['Thursday', 'Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday'], 'Number of customers': ['38', '26', '38', '26', '37', '37', '26']}",8,2,"Read the numbers from the table.
+
+38, 26, 38, 26, 37, 37, 26
+
+First, arrange the numbers from least to greatest:
+
+26, 26, 26, 37, 37, 38, 38
+
+Now count how many times each number appears.
+
+26 appears 3 times.
+37 appears 2 times.
+38 appears 2 times.
+
+The number that appears most often is 26.
+
+The mode is 26.",free_text,integer_number,5,train,0,793
+14647,Some friends played a trivia game and recorded their scores. Who had the highest score?,"['Shannon', 'Monica', 'Porter', 'Ted']",Ted,,Trivia game scores,"Name | Score
+Shannon | 12
+Monica | 17
+Porter | 15
+Ted | 19","{'Name': ['Shannon', 'Monica', 'Porter', 'Ted'], 'Score': ['12', '17', '15', '19']}",5,2,"Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 19.
+
+Now find the corresponding name. Ted corresponds to 19.",multi_choice,extractive_text,2,train,1,3491
+22376,Dale buys 1 pound of raisins. What is the total cost?,,5,$,,"raisins | $5 per pound
+dried pear | $4 per pound
+dried apple | $3 per pound
+banana chips | $6 per pound","{'Column 1': ['raisins', 'dried pear', 'dried apple', 'banana chips'], 'Column 2': ['$5 per pound', '$4 per pound', '$3 per pound', '$6 per pound']}",4,2,"Find the cost of the raisins. Multiply the price per pound by the number of pounds.
+$5 × 1 = $5
+The total cost is $5.",free_text,integer_number,6,train,2,15496
+17398,"Look at the table. Then answer the question. At a price of $930, is there a shortage or a surplus?","['shortage', 'surplus']",surplus,,,"Price | Quantity demanded | Quantity supplied
+$870 | 17,100 | 17,400
+$890 | 15,000 | 18,400
+$910 | 12,900 | 19,400
+$930 | 10,800 | 20,400
+$950 | 8,700 | 21,400","{'Price': ['$870', '$890', '$910', '$930', '$950'], 'Quantity demanded': ['17,100', '15,000', '12,900', '10,800', '8,700'], 'Quantity supplied': ['17,400', '18,400', '19,400', '20,400', '21,400']}",6,3,"At the price of $930, the quantity demanded is less than the quantity supplied. There is too much of the good or service for sale at that price. So, there is a surplus.
+",multi_choice,boolean_text,5,train,3,7855
+36369,Look at the following schedule. When does the advanced snowboard class begin?,"['7:30 P.M.', '5:10 P.M.', '3:50 P.M.', '11:15 A.M.']",3:50 P.M.,,Winter lodge schedule,"Activity | Begin | End
+advanced ski class | 8:25 A.M. | 9:10 A.M.
+intermediate ski class | 9:50 A.M. | 11:00 A.M.
+snowman competition | 11:15 A.M. | 12:20 P.M.
+family ice skating | 12:55 P.M. | 1:25 P.M.
+cross-country ski tour | 2:00 P.M. | 3:10 P.M.
+advanced snowboard class | 3:50 P.M. | 5:10 P.M.
+beginning snowboard class | 5:35 P.M. | 7:05 P.M.
+ice skating class | 7:30 P.M. | 8:20 P.M.","{'Activity': ['advanced ski class', 'intermediate ski class', 'snowman competition', 'family ice skating', 'cross-country ski tour', 'advanced snowboard class', 'beginning snowboard class', 'ice skating class'], 'Begin': ['8:25 A.M.', '9:50 A.M.', '11:15 A.M.', '12:55 P.M.', '2:00 P.M.', '3:50 P.M.', '5:35 P.M.', '7:30 P.M.'], 'End': ['9:10 A.M.', '11:00 A.M.', '12:20 P.M.', '1:25 P.M.', '3:10 P.M.', '5:10 P.M.', '7:05 P.M.', '8:20 P.M.']}",9,3,"Find the advanced snowboard class on the schedule. Find the beginning time for the advanced snowboard class.
+
+advanced snowboard class: 3:50 P. M.",multi_choice,extractive_text,3,train,4,8849
+1983,Elena kept track of how many boxes of cookies she sold over the past 7 days. What is the median of the numbers?,,27,,Boxes of cookies sold,"Day | Number of boxes
+Saturday | 26
+Sunday | 33
+Monday | 34
+Tuesday | 25
+Wednesday | 27
+Thursday | 33
+Friday | 25","{'Day': ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], 'Number of boxes': ['26', '33', '34', '25', '27', '33', '25']}",8,2,"Read the numbers from the table.
+
+26, 33, 34, 25, 27, 33, 25
+
+First, arrange the numbers from least to greatest:
+
+25, 25, 26, 27, 33, 33, 34
+
+Now find the number in the middle.
+
+25, 25, 26, 27, 33, 33, 34
+
+The number in the middle is 27.
+
+The median is 27.",free_text,integer_number,5,train,0,2382
+4426,An environmental agency examined how many trees were planted by different organizations. Which organization planted the fewest trees?,"['Dreaming Green', 'Trees for All', 'Make it Green', 'Heal the Earth']",Trees for All,,Trees planted,"Organization | Number of trees planted
+Dreaming Green | 72
+Trees for All | 71
+Make it Green | 76
+Heal the Earth | 75","{'Organization': ['Dreaming Green', 'Trees for All', 'Make it Green', 'Heal the Earth'], 'Number of trees planted': ['72', '71', '76', '75']}",5,2,"Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 71.
+
+Now find the corresponding organization. Trees for All corresponds to 71.",multi_choice,extractive_text,2,train,1,4711
+25593,How much more does an antique oak writing desk cost than an antique birchwood dining table?,,"1,266",$,,"antique birchwood dining table | $4,546.00
+antique cast-iron bench | $3,600.00
+antique hand-painted trunk | $2,223.00
+antique oak writing desk | $5,812.00","{'Column 1': ['antique birchwood dining table', 'antique cast-iron bench', 'antique hand-painted trunk', 'antique oak writing desk'], 'Column 2': ['$4,546.00', '$3,600.00', '$2,223.00', '$5,812.00']}",4,2,"Subtract the price of an antique birchwood dining table from the price of an antique oak writing desk.
+
+$5,812.00 - $4,546.00 = $1,266.00
+
+An antique oak writing desk costs $1,266.00 more than an antique birchwood dining table.",free_text,integer_number,4,train,2,5773
+2306,"Look at the table. Then answer the question. At a price of $1,030, is there a shortage or a surplus?","['shortage', 'surplus']",shortage,,,"Price | Quantity demanded | Quantity supplied
+$910 | 12,800 | 1,900
+$1,030 | 12,500 | 6,400
+$1,150 | 12,200 | 10,900
+$1,270 | 11,900 | 15,400
+$1,390 | 11,600 | 19,900","{'Price': ['$910', '$1,030', '$1,150', '$1,270', '$1,390'], 'Quantity demanded': ['12,800', '12,500', '12,200', '11,900', '11,600'], 'Quantity supplied': ['1,900', '6,400', '10,900', '15,400', '19,900']}",6,3,"At the price of $1,030, the quantity demanded is greater than the quantity supplied. There is not enough of the good or service for sale at that price. So, there is a shortage.
+",multi_choice,boolean_text,5,train,3,1938
+5650,Look at the following schedule. How long does it take to get from Smith Road to Maple Avenue?,"['45 minutes', '1 hour', '15 minutes', '30 minutes']",1 hour,,Subway train schedule,"Smith Road | 10:15 A.M. | 10:30 A.M. | 10:45 A.M. | 11:00 A.M.
+Washington Street | 10:30 A.M. | 10:45 A.M. | 11:00 A.M. | 11:15 A.M.
+Maple Avenue | 11:15 A.M. | 11:30 A.M. | 11:45 A.M. | 12:00 P.M.
+North Road | 11:45 A.M. | 12:00 P.M. | 12:15 P.M. | 12:30 P.M.
+West Street | 12:30 P.M. | 12:45 P.M. | 1:00 P.M. | 1:15 P.M.
+Forest Avenue | 12:45 P.M. | 1:00 P.M. | 1:15 P.M. | 1:30 P.M.
+Spring Street | 1:00 P.M. | 1:15 P.M. | 1:30 P.M. | 1:45 P.M.","{'Column 1': ['Smith Road', 'Washington Street', 'Maple Avenue', 'North Road', 'West Street', 'Forest Avenue', 'Spring Street'], 'Column 2': ['10:15 A.M.', '10:30 A.M.', '11:15 A.M.', '11:45 A.M.', '12:30 P.M.', '12:45 P.M.', '1:00 P.M.'], 'Column 3': ['10:30 A.M.', '10:45 A.M.', '11:30 A.M.', '12:00 P.M.', '12:45 P.M.', '1:00 P.M.', '1:15 P.M.'], 'Column 4': ['10:45 A.M.', '11:00 A.M.', '11:45 A.M.', '12:15 P.M.', '1:00 P.M.', '1:15 P.M.', '1:30 P.M.'], 'Column 5': ['11:00 A.M.', '11:15 A.M.', '12:00 P.M.', '12:30 P.M.', '1:15 P.M.', '1:30 P.M.', '1:45 P.M.']}",7,5,"Read the times in the first column for Smith Road and Maple Avenue.
+
+Find the elapsed time between 10:15 A. M. and 11:15 A. M. The elapsed time is 1 hour.
+
+No matter which column of times you look at, the elapsed time is always 1 hour.",multi_choice,other_text,4,train,4,14471
+21292,A pizza delivery driver paid attention to how many pizzas she delivered over the past 6 days. What is the mean of the numbers?,,6,,Pizzas delivered,"Day | Number of pizzas
+Monday | 4
+Tuesday | 7
+Wednesday | 5
+Thursday | 9
+Friday | 3
+Saturday | 8","{'Day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], 'Number of pizzas': ['4', '7', '5', '9', '3', '8']}",7,2,"Read the numbers from the table.
+
+4, 7, 5, 9, 3, 8
+
+First, count how many numbers are in the group.
+
+There are 6 numbers.
+
+Now add all the numbers together:
+
+4 + 7 + 5 + 9 + 3 + 8 = 36
+
+Now divide the sum by the number of numbers:
+
+36 ÷ 6 = 6
+
+The mean is 6.",free_text,integer_number,7,train,0,15688
+20348,"In hopes of raising more funds for arts education, some parents in the Summerfield School District publicized the current per-student arts education budget. According to the table, what was the rate of change between 2007 and 2008?",,1,"$, per year",Summerfield arts education budget,"Year | Per-student budget
+2006 | $21
+2007 | $30
+2008 | $31
+2009 | $32
+2010 | $32","{'Year': ['2006', '2007', '2008', '2009', '2010'], 'Per-student budget': ['$21', '$30', '$31', '$32', '$32']}",6,2,"Plug the numbers into the formula for rate of change and simplify.
+Rate of change
+ = \frac{change in value}{change in time}
+ = \frac{$31 - $30}{2008 - 2007}
+ = \frac{$31 - $30}{1 year}
+ = \frac{$1}{1 year}
+ = $1 per year
+The rate of change between 2007 and 2008 was $1 per year.",free_text,integer_number,8,train,1,15155
+12052,Lara has $31.00. Does she have enough to buy ravioli and baked chicken?,"['yes', 'no']",yes,,,"pasta with mushrooms | $14.00
+baked ziti | $14.00
+lasagna | $11.00
+mushroom pizza | $14.00
+ravioli | $13.00
+baked chicken | $17.00","{'Column 1': ['pasta with mushrooms', 'baked ziti', 'lasagna', 'mushroom pizza', 'ravioli', 'baked chicken'], 'Column 2': ['$14.00', '$14.00', '$11.00', '$14.00', '$13.00', '$17.00']}",6,2,"Add the price of ravioli and the price of baked chicken:
+
+$13.00 + $17.00 = $30.00
+
+$30.00 is less than $31.00. Lara does have enough money.",multi_choice,boolean_text,3,train,2,13438
+20914,"Look at the table. Then answer the question. At a price of $550, is there a shortage or a surplus?","['shortage', 'surplus']",shortage,,,"Price | Quantity demanded | Quantity supplied
+$550 | 19,900 | 2,600
+$680 | 15,300 | 6,900
+$810 | 10,700 | 11,200
+$940 | 6,100 | 15,500
+$1,070 | 1,500 | 19,800","{'Price': ['$550', '$680', '$810', '$940', '$1,070'], 'Quantity demanded': ['19,900', '15,300', '10,700', '6,100', '1,500'], 'Quantity supplied': ['2,600', '6,900', '11,200', '15,500', '19,800']}",6,3,"At the price of $550, the quantity demanded is greater than the quantity supplied. There is not enough of the good or service for sale at that price. So, there is a shortage.
+",multi_choice,boolean_text,5,train,3,15
+2663,Look at the following schedule. Alan just missed the 12.45 P.M. bus at the famous bridge. What time is the next bus?,"['1:30 P.M.', '10:45 A.M.', '2:15 P.M.', '12:45 P.M.']",1:30 P.M.,,Tour bus schedule,"old building | 8:00 A.M. | 10:00 A.M. | 10:15 A.M. | 11:00 A.M.
+university campus | 8:45 A.M. | 10:45 A.M. | 11:00 A.M. | 11:45 A.M.
+shopping district | 9:30 A.M. | 11:30 A.M. | 11:45 A.M. | 12:30 P.M.
+the riverfront | 9:45 A.M. | 11:45 A.M. | 12:00 P.M. | 12:45 P.M.
+famous bridge | 10:30 A.M. | 12:30 P.M. | 12:45 P.M. | 1:30 P.M.
+landmark sculpture | 11:15 A.M. | 1:15 P.M. | 1:30 P.M. | 2:15 P.M.
+the aquarium | 12:15 P.M. | 2:15 P.M. | 2:30 P.M. | 3:15 P.M.
+the zoo | 1:00 P.M. | 3:00 P.M. | 3:15 P.M. | 4:00 P.M.","{'Column 1': ['old building', 'university campus', 'shopping district', 'the riverfront', 'famous bridge', 'landmark sculpture', 'the aquarium', 'the zoo'], 'Column 2': ['8:00 A.M.', '8:45 A.M.', '9:30 A.M.', '9:45 A.M.', '10:30 A.M.', '11:15 A.M.', '12:15 P.M.', '1:00 P.M.'], 'Column 3': ['10:00 A.M.', '10:45 A.M.', '11:30 A.M.', '11:45 A.M.', '12:30 P.M.', '1:15 P.M.', '2:15 P.M.', '3:00 P.M.'], 'Column 4': ['10:15 A.M.', '11:00 A.M.', '11:45 A.M.', '12:00 P.M.', '12:45 P.M.', '1:30 P.M.', '2:30 P.M.', '3:15 P.M.'], 'Column 5': ['11:00 A.M.', '11:45 A.M.', '12:30 P.M.', '12:45 P.M.', '1:30 P.M.', '2:15 P.M.', '3:15 P.M.', '4:00 P.M.']}",8,5,"Find 12:45 P. M. in the row for the famous bridge.
+
+Look for the next bus in that row.
+
+The next bus is at 1:30 P. M.",multi_choice,extractive_text,4,train,4,9204
+16184,The parks department compared how many basketball hoops there are at each park. What is the mean of the numbers?,,6,,Basketball hoops,"Park | Number of basketball hoops
+Canal Park | 3
+Heron Park | 7
+Otter Park | 9
+Kelly Park | 10
+Pinehurst Park | 3
+Riverfront Park | 4
+Westfield Park | 8
+Mooreland Park | 4","{'Park': ['Canal Park', 'Heron Park', 'Otter Park', 'Kelly Park', 'Pinehurst Park', 'Riverfront Park', 'Westfield Park', 'Mooreland Park'], 'Number of basketball hoops': ['3', '7', '9', '10', '3', '4', '8', '4']}",9,2,"Read the numbers from the table.
+
+3, 7, 9, 10, 3, 4, 8, 4
+
+First, count how many numbers are in the group.
+
+There are 8 numbers.
+
+Now add all the numbers together:
+
+3 + 7 + 9 + 10 + 3 + 4 + 8 + 4 = 48
+
+Now divide the sum by the number of numbers:
+
+48 ÷ 8 = 6
+
+The mean is 6.",free_text,integer_number,8,train,0,8426
+3835,Bryant's campground is close to two hiking trails with scenic destinations. One trail ends at an underground lake in the bottom of a small cave. The other trail ends at a mountain peak. The elevation of each destination is shown on the campground map. Which trail's destination is farther from sea level?,"['underground lake', 'mountain peak']",underground lake,,,"Destination | Elevation (ft.)
+Underground lake | -350
+Mountain peak | 325","{'Destination': ['Underground lake', 'Mountain peak'], 'Elevation (ft.)': ['-350', '325']}",3,2,"The underground lake's elevation is negative, so it is below sea level. The mountain peak's elevation is positive, so it is above sea level.
+To find the destination farther from sea level, use absolute value. Absolute value tells you how far each destination is from sea level.
+Underground lake: |-350| = 350
+Mountain peak: |325| = 325
+The underground lake is 350 feet below sea level, and the mountain peak is only 325 feet above sea level. The underground lake is farther from sea level.",multi_choice,extractive_text,6,train,1,3021
+36514,Logan has $14.00. Does he have enough to buy a cheese pizza and a green salad?,"['yes', 'no']",no,,,"steamed broccoli | $5.00
+spaghetti and meatballs | $9.00
+green salad | $8.00
+pasta with white sauce | $5.00
+cheese pizza | $8.00","{'Column 1': ['steamed broccoli', 'spaghetti and meatballs', 'green salad', 'pasta with white sauce', 'cheese pizza'], 'Column 2': ['$5.00', '$9.00', '$8.00', '$5.00', '$8.00']}",5,2,"Add the price of a cheese pizza and the price of a green salad:
+
+$8.00 + $8.00 = $16.00
+
+$16.00 is more than $14.00. Logan does not have enough money.",multi_choice,boolean_text,3,train,2,453
+33355,"Look at the table. Then answer the question. At a price of $720, is there a shortage or a surplus?","['shortage', 'surplus']",shortage,,,"Price | Quantity demanded | Quantity supplied
+$720 | 14,300 | 1,000
+$860 | 11,200 | 3,500
+$1,000 | 8,100 | 6,000
+$1,140 | 5,000 | 8,500
+$1,280 | 1,900 | 11,000","{'Price': ['$720', '$860', '$1,000', '$1,140', '$1,280'], 'Quantity demanded': ['14,300', '11,200', '8,100', '5,000', '1,900'], 'Quantity supplied': ['1,000', '3,500', '6,000', '8,500', '11,000']}",6,3,"At the price of $720, the quantity demanded is greater than the quantity supplied. There is not enough of the good or service for sale at that price. So, there is a shortage.
+",multi_choice,boolean_text,5,train,3,4793
+4681,"Look at the following schedule. Leslie is at the hotel. If she wants to arrive at the art museum at 2.15 P.M., what time should she get on the bus?","['12:30 P.M.', '1:00 P.M.', '11:45 A.M.', '12:45 P.M.']",12:30 P.M.,,Hotel shuttle bus schedule,"shopping mall | 9:30 A.M. | 10:30 A.M. | 10:45 A.M. | 11:00 A.M.
+college campus | 10:15 A.M. | 11:15 A.M. | 11:30 A.M. | 11:45 A.M.
+train station | 10:45 A.M. | 11:45 A.M. | 12:00 P.M. | 12:15 P.M.
+hotel | 11:30 A.M. | 12:30 P.M. | 12:45 P.M. | 1:00 P.M.
+baseball stadium | 12:15 P.M. | 1:15 P.M. | 1:30 P.M. | 1:45 P.M.
+art museum | 1:15 P.M. | 2:15 P.M. | 2:30 P.M. | 2:45 P.M.","{'Column 1': ['shopping mall', 'college campus', 'train station', 'hotel', 'baseball stadium', 'art museum'], 'Column 2': ['9:30 A.M.', '10:15 A.M.', '10:45 A.M.', '11:30 A.M.', '12:15 P.M.', '1:15 P.M.'], 'Column 3': ['10:30 A.M.', '11:15 A.M.', '11:45 A.M.', '12:30 P.M.', '1:15 P.M.', '2:15 P.M.'], 'Column 4': ['10:45 A.M.', '11:30 A.M.', '12:00 P.M.', '12:45 P.M.', '1:30 P.M.', '2:30 P.M.'], 'Column 5': ['11:00 A.M.', '11:45 A.M.', '12:15 P.M.', '1:00 P.M.', '1:45 P.M.', '2:45 P.M.']}",6,5,"Look at the row for the art museum. Find the bus that arrives at the art museum at 2:15 P. M.
+
+Look up the column until you find the row for the hotel.
+
+Leslie should get on the bus at 12:30 P. M.",multi_choice,extractive_text,4,train,4,6872
+18344,An architecture student measured the heights of all the buildings downtown. What is the height of the tallest building?,,90,meters tall,Building heights (meters),"Stem | Leaf 
+2 | 1, 4, 9
+3 | 3, 4
+4 | 7, 9
+5 | 5, 7, 9, 9
+6 | 5, 6, 9, 9
+7 | 1
+8 | 3, 5, 8, 8
+9 | 0","{'Stem': ['2', '3', '4', '5', '6', '7', '8', '9'], 'Leaf ': ['1, 4, 9', '3, 4', '7, 9', '5, 7, 9, 9', '5, 6, 9, 9', '1', '3, 5, 8, 8', '0']}",9,2,"Look at the last row of the stem-and-leaf plot. The last row has the highest stem. The stem for the last row is 9.
+
+Now find the highest leaf in the last row. The highest leaf is 0.
+
+The height of the tallest building has a stem of 9 and a leaf of 0. Write the stem first, then the leaf: 90.
+
+The height of the tallest building is 90 meters tall.",free_text,integer_number,4,train,0,7776
+14747,"A dog show enthusiast recorded the weight of the winning dog at recent dog shows. According to the table, what was the rate of change between 2014 and 2015?",,-6,kilograms per year,Weight of winning dog at a dog show,"Year | Weight (kg)
+2013 | 14
+2014 | 18
+2015 | 12
+2016 | 15
+2017 | 19","{'Year': ['2013', '2014', '2015', '2016', '2017'], 'Weight (kg)': ['14', '18', '12', '15', '19']}",6,2,"Plug the numbers into the formula for rate of change and simplify.
+Rate of change
+ = \frac{change in value}{change in time}
+ = \frac{12 kilograms - 18 kilograms}{2015 - 2014}
+ = \frac{12 kilograms - 18 kilograms}{1 year}
+ = \frac{-6 kilograms}{1 year}
+ = -6 kilograms per year
+The rate of change between 2014 and 2015 was - 6 kilograms per year.",free_text,integer_number,7,train,1,11403
+1409,How much more does a symphony ticket cost than a basketball ticket?,,39.83,$,,"concert ticket | $80.82
+play ticket | $33.55
+airplane show ticket | $23.80
+car show ticket | $25.03
+symphony ticket | $56.04
+basketball ticket | $16.21","{'Column 1': ['concert ticket', 'play ticket', 'airplane show ticket', 'car show ticket', 'symphony ticket', 'basketball ticket'], 'Column 2': ['$80.82', '$33.55', '$23.80', '$25.03', '$56.04', '$16.21']}",6,2,"Subtract the price of a basketball ticket from the price of a symphony ticket.
+
+$56.04 - $16.21 = $39.83
+
+A symphony ticket costs $39.83 more than a basketball ticket.",free_text,decimal_number,4,train,2,8244
+13235,"Look at the table. Then answer the question. At a price of $850, is there a shortage or a surplus?","['shortage', 'surplus']",shortage,,,"Price | Quantity demanded | Quantity supplied
+$850 | 20,500 | 12,300
+$970 | 17,600 | 14,200
+$1,090 | 14,700 | 16,100
+$1,210 | 11,800 | 18,000
+$1,330 | 8,900 | 19,900","{'Price': ['$850', '$970', '$1,090', '$1,210', '$1,330'], 'Quantity demanded': ['20,500', '17,600', '14,700', '11,800', '8,900'], 'Quantity supplied': ['12,300', '14,200', '16,100', '18,000', '19,900']}",6,3,"At the price of $850, the quantity demanded is greater than the quantity supplied. There is not enough of the good or service for sale at that price. So, there is a shortage.
+",multi_choice,boolean_text,5,train,3,12916
+13614,Look at the following schedule. Marco just missed the 1.00 P.M. bus at the library. How long does he have to wait until the next bus?,"['30 minutes', '1 hour', '45 minutes', '15 minutes']",30 minutes,,Bus schedule,"the grocery store | 8:15 A.M. | 9:15 A.M. | 9:45 A.M. | 10:00 A.M.
+the doctor's office | 9:15 A.M. | 10:15 A.M. | 10:45 A.M. | 11:00 A.M.
+the post office | 10:15 A.M. | 11:15 A.M. | 11:45 A.M. | 12:00 P.M.
+the movie theater | 11:00 A.M. | 12:00 P.M. | 12:30 P.M. | 12:45 P.M.
+the library | 12:00 P.M. | 1:00 P.M. | 1:30 P.M. | 1:45 P.M.
+the playground | 1:00 P.M. | 2:00 P.M. | 2:30 P.M. | 2:45 P.M.","{'Column 1': ['the grocery store', ""the doctor's office"", 'the post office', 'the movie theater', 'the library', 'the playground'], 'Column 2': ['8:15 A.M.', '9:15 A.M.', '10:15 A.M.', '11:00 A.M.', '12:00 P.M.', '1:00 P.M.'], 'Column 3': ['9:15 A.M.', '10:15 A.M.', '11:15 A.M.', '12:00 P.M.', '1:00 P.M.', '2:00 P.M.'], 'Column 4': ['9:45 A.M.', '10:45 A.M.', '11:45 A.M.', '12:30 P.M.', '1:30 P.M.', '2:30 P.M.'], 'Column 5': ['10:00 A.M.', '11:00 A.M.', '12:00 P.M.', '12:45 P.M.', '1:45 P.M.', '2:45 P.M.']}",6,5,"Find 1:00 P. M. in the row for the library.
+
+Look for the next bus in that row.
+
+The next bus is at 1:30 P. M.
+
+Find the elapsed time. The elapsed time is 30 minutes.",multi_choice,other_text,4,train,4,9792
