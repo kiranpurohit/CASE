@@ -1,0 +1,291 @@
+,question,options,rationale,correct,cluster,index
+86358,"In certain year in Country C, x sets of twins and y sets of triplets were born. If there were z total babies born in Country C in this year, and x and y were both greater than 0, which of the following represents the fraction Q of all babies born who were NOT part of a set of twins or triplets?","['A)z - 2x - 3y', 'B)(2x+3y)/z', 'C)(x+y)/z', 'D)1 - (2x+3y)/z', 'E)1 - (x+y)/z']","X set of twins implies 2x babies of twin category.
+Y set of triplets means 3y babies of triplet category.
+Let K be the babies other than twin or triplet category.
+Total babies = z = 2x+3y+k.
+or K=Z-(2x+3y)
+=> Fraction of babies other than twin or triplet categories = K/Z = Z-(2x+3y)/Z.
+Q= 1- (2x+3y)/Z. Hence answer is D.",D,0,55718
+62632,The perimeter of a rhombus is 68 cm and one of its diagonals is 16 cm. Find its area?,"['A)399', 'B)240', 'C)882', 'D)378', 'E)2131']","4a = 68 => a = 17
+172 – 82 = 152
+1/2 * 16 * 30 = 240
+Answer: B",B,1,7803
+72692,"A rectangular lawn of dimensions 90 m * 60 m has two roads each 10 m wide running in the middle of the lawn, one parallel to the length and the other parallel to the breadth. What is the cost of traveling the two roads at Rs.3 per sq m?","['A)A)4200', 'B)B)930', 'C)C)9309', 'D)D)3900', 'E)E)8302']","Explanation:
+Area = (l + b – d) d
+(90 + 60 – 10)10 => 1400 m2
+1400 * 3 = Rs.4200
+Answer: Option A",A,2,64937
+33200,"a is the hundreds digit of the three digit integer x, b is the tens digit of x, and c is the units digit of x. 3a = b = 3c, and a > 0.
+What is the difference between the two greatest possible values of x?
+Tip: Dont stop till you have exhausted all answer choices to arrive at the correct one.","['A)131', 'B)292', 'C)394', 'D)424', 'E)969']","Ratio of a:b:c= 1:3:1
+Two possible greatest single digit values for b are 9 and 6
+if b is 9, then x= 393
+if b is 6, then x= 262
+difference= 393-262= 131
+A is the answer",A,3,33481
+88083,The population of a town is 10000. It increases annually at the rate of 20% p.a. What will be its population after 3 years?,"['A)14300', 'B)17280', 'C)14500', 'D)14600', 'E)15400']","Formula :
+( After =100 denominator
+Ago = 100 numerator)
+10000 × 120/100^3 = 17280
+B)",B,4,22767
+31309,"A miniature gumball machine contains 4 blue, 3 green, and 2 red gumballs, which are identical except for their colors. If the machine dispenses three gumballs at random, what is the probability that it dispenses one gumball of each color?","['A)2/7', 'B)3/7', 'C)3/14', 'D)5/24', 'E)7/24']","The total number of ways to dispense 3 gumballs is 9C3=84.
+The number of ways to choose one of each color is 4*3*2=24.
+P(dispensing one of each color)=24/84=2/7.
+The answer is A.",A,0,38314
+47343,"Find the value of * in the following
+(1 5/3) ÷ 3/11 × */11 = (2 2/3 × 7/5 × 6/7)","['A)3.2', 'B)3.4', 'C)3.6', 'D)3.8', 'E)4']","3.6
+Option 'C'",C,1,27563
+46234,A woman begins bicycling with a pace of 8 kmph and she increases her pace every two hours by 2 kmph. She does not increase her pace as soon as her pace reaches her maximum speed of 12 kmph. How many hours did she bicycle if she traveled 64 kms?,"['A)6 1â\x81„7 hours', 'B)6 2â\x81„7 hours', 'C)8 2â\x81„7 hours', 'D)Cannot be determined', 'E)None of these']","Distance covered in first two hours = 8 Ã— 2 = 16 km
+Distance covered in next two hours = 10 Ã— 2 = 20 km
+Distance covered in next two hours = 12 Ã— 2 = 24 km
+Distance covered in first six hours
+16 + 20 + 24 = 60 km
+Remaining distance = 64 â€“ 60 = 4 km.
+Now, this distance will be covered at the speed of 12 km/hr.
+âˆ´ Time taken = 4â„12 = 1â„3 hour.
+Total time= 6 + 1â„3 = 6 1â„3 hour
+Answer E",E,2,34277
+5489,The units digit of (35)^(87) + (93)^(51) is:,"['A)2', 'B)4', 'C)6', 'D)8', 'E)0']","The units digit of powers of 3, cycles in a group of 4: {3, 9, 7, 1}
+51 has the form 4k+3, so the units digit of 93^51 is 7.
+The units digit of powers of 5 is always 5.
+7+5 = 12, so the units digit is 2.
+The answer is A.",A,3,31235
+90995,What does RBI regulate through Open Market Operation Transactions?,"['A)Flow of Foreign Direct Investment', 'B)What does RBI regulate through Open Market Operation Transactions?', 'C)Borrowing powers of the banks', 'D)Liquidity in economy', 'E). Inflation']","Explanation:
+Outright purchase and Repurchase agreement are the two traditional type of OMO's used by RBI.
+ANSWER: D",D,4,22576
+44527,"A certain number of men can do a work in 65 days working 6 hours a day. If the number of men are decreased by one-fourth, then for how many hours per day should they work in order to complete the work in 40 days?","['A)11', 'B)12', 'C)14', 'D)13', 'E)15']","D
+13
+Let the number of men initially be x. we have M1 D1 H1= M2 D2 H2
+So, x * 65 * 6 = (3x)/4 * 40 * h2
+=> h2 = (65 * 6 * 4)/(3 * 40) = 13.",D,0,59505
+4501,When a number is added to another number the total becomes 33 1⁄3 per cent of the second number. What is the ratio between the first and the second number?,"['A)3 : 7', 'B)7 : 4', 'C)7 : 3', 'D)Data inadequate', 'E)None of these']","Let the first and second numbers be x and y respectively.
+Then, x + y = 10⁄3y
+or, x = 7⁄3y
+∴ x : y = 7 : 3
+Answer C",C,1,18946
+10895,Two trains are moving in opposite directions at 60 km/hr and 90 km/hr. Their lengths are 1.10 km and 0.9 km respectively. The time taken by the slower train to cross the faster train in seconds is?,"['A)48 sec', 'B)77', 'C)55', 'D)27', 'E)21']","Relative speed = 60 + 90 = 150 km/hr.
+= 150 * 5/18 = 125/3 m/sec.
+Distance covered = 1.10 + 0.9 = 2 km = 2000 m.
+Required time = 2000 * 3/125 = 48 sec.
+Answer: A",A,2,49952
+74060,"If x/y = 3/z, then 9z^2 =","['A)y²/ x²', 'B)x²y²', 'C)81y²/ x².', 'D)9y/x', 'E)x²/y²']","This question is most easily solved by isolating y in the equation and substituting into the expression 9z²:
+x/y = 3/z
+x = 3y/z
+3y = xz
+z = 3y/x.
+If we substitute 3y/xinto the expression for z, we get:
+9(3y/x)² = 9(9y²/ x²) = 81y²/ x².
+The correct answer is choice (C)",C,3,41135
+45772,Sonika deposited Rs.8000 which amounted to Rs.10200 after 3 years at simple interest. Had the interest been 2% more. She would get how much?,"['A)9680', 'B)10680', 'C)2999', 'D)2774', 'E)1212']","(8000*3*2)/100 = 480
+10200
+--------
+10680
+Answer:B",B,4,60418
+46883,"Divide Rs. 1500 among A, B and C so that A receives 1/3 as much as B and C together and B receives 2/3 as A and C together. A's share is?","['A)378', 'B)277', 'C)375', 'D)287', 'E)279']","A+B+C = 1500
+A = 1/3(B+C); B = 2/3(A+C)
+A/(B+C) = 1/3
+A = 1/4 * 1500 => 375
+Answer: C",C,0,30192
+85462,"In order to fence a square Manish fixed 48 poles. If the distance between two poles, is 5 metres then what will be the area of the square so formed?","['A)Cannot be determined', 'B)2600 cm2', 'C)2500 cm2', 'D)3025 cm2', 'E)None of these']","Let the side of the square be x m.
+∴ Perimeter of the square = 48 × 5 = 4x ∴ x = 60 m
+∴ Area = (60)2 = 3600 m2
+Answer E",E,1,8011
+23798,"A man whose speed is 6.5 kmph in still water rows to a certain upstream point and back to the starting point in a river which flows at 1.5 kmph, find his average speed for the total journey?","['A)5.33kmph', 'B)6.00kmph', 'C)5.00kmph', 'D)6.00kmph', 'E)4.00kmph']","M = 6.5
+S = 1.5
+DS = 8
+US = 4
+AS = (2 * 8 * 4) /12 = 5.33
+Answer:A",A,2,53143
+40844,"An integer is said to be “diverse” if no two of its digits are the same. For example, 327 is “diverse” but 404 is not. How many “diverse” two digit numbers are there ?","['A)70', 'B)72', 'C)81', 'D)90', 'E)91']","A two digit number has to be formed from digits 0 to 9 such that unit's digit and ten's digit are not same.
+The unit's digit can have 10 values from 0 to 9.
+Ten's digit can have 9 values from 1 to 9
+So total number of two digit numbers will be 9 x 10 = 90
+But there are 9 numbers which are not diverse.
+11,22,33,44,55,66,77,88,99
+so, the number of diverse two digit numbers will be 90-9 = 81
+Answer:- C",C,3,6408
+38979,"Alok ordered 16 chapatis, 5 plates of rice, 7 plates of mixed vegetable and 6 ice-cream cups. The cost of each chapati is Rs.6, that of each plate of rice is Rs.45 and that of mixed vegetable is Rs.70. The amount that Alok paid the cashier was Rs.961. Find the cost of each ice-cream cup?","['A)25', 'B)76', 'C)29', 'D)12', 'E)20']","Explanation:
+Let the cost of each ice-cream cup be Rs.x
+16(6) + 5(45) + 7(70) + 6(x) = 961
+96 + 225 + 490 + 6x = 961
+6x = 150 => x = 25.
+Answer:A",A,4,7058
+67408,"A is two years older than B who is twice as old as C. If the total of the ages of A, B and C be 37, the how old is B?","['A)7', 'B)9', 'C)8', 'D)14', 'E)10']","Explanation:
+Let C's age be x years. Then, B's age = 2x years. A's age = (2x + 2) years.
+(2x + 2) + 2x + x = 37
+⇒ 5x = 35
+⇒ x = 7.
+Hence, B's age = 2x = 14 years.
+Answer: D",D,0,33652
+73968,"In the given series find the number which is wrong.
+215,28,63,126,7,343","['A)215', 'B)28', 'C)126', 'D)343', 'E)625']","215=6*6*6-1
+28=3*3*3+1
+63=4*4*4-1
+126=5*5*5+1
+7=2*2*2-1
+343 should be 7*7*7+1= 344 but it is 343
+ANSWER:D",D,1,19357
+35461,A train running at a speed of 60 kmph crosses a pole in 9 seconds.What is the length of the train?,"['A)120 m', 'B)180 m', 'C)190 m', 'D)150 m', 'E)160 m']","60 kmph=50/3 m/sec
+50/3*9=150 m
+ANSWER:D",D,2,3149
+38277,"If 8m − n = p, then which of the following represents the average (arithmetic mean) of m, n, and p, in terms of m?","['A)2m −1', 'B)3m', 'C)6m', 'D)m/5', 'E)6m/5']","8m - n = p
+Add n to both sides:
+8m = n + p
+Add m to both sides:
+9m = n + p + m
+Now, divide both sides by 3
+3m = (n + p + m)/3 = the average of n, p, and m
+B",B,3,328
+79114,"Due to 10% decrease in the price of sugar and John can buy 5kg more sugar in Rs100 , then find the CP of sugar?","['A)Rs. 1(2/9)', 'B)Rs. 2(2/9)', 'C)Rs. 2(2/7)', 'D)Rs. 3(2/5)', 'E)Rs. 3(1/9)']","Here r = 10 % ,x = 100 and A = 5 kg
+Actual price of sugar = 10*100/((100-10 )*5) = Rs. 2(2/9)
+B",B,4,16889
+3510,"Anne and Beth will participate in a sack race (In a sack race, people hop to reach the finish line). In the time that Anne takes 3 hops, Beth takes 4 hops but the distance covered by Anne in 4 hops is equal to distance covered by Beth in 5 hops. What is the ratio of Anne’s speed: Beth’s speed?","['A)3 : 5', 'B)12 : 20', 'C)15 : 16', 'D)1 : 1', 'E)5 : 3']","The distance covered by Anne in 4 hops is equal to distance covered by Beth in 5 hops --> 4*(distance of Ann's 1 hop) = 5*(distance of Beth's 1 hop).
+The time that Anne takes 3 hops, Beth takes 4 hops --> time for Ann to take 12 hops --> 3*(time for Ann's 1 hop) = 4*(time for Beth's 1 hop).
+Divide one by another:
+4/3*(distance of Ann's 1 hop)/(time for Ann's 1 hop) = 5/4*(distance of Beth's 1 hop)/(time for Beth's 1 hop);
+4/3*(Anne's speed) = 5/4*(Beth's speed);
+4/3*(Anne's speed)/(Beth's speed) = 15/16.
+Answer: C.",C,0,4639
+11048,"Look at this series: 3, 1, (1/3), (1/9),... What number should come next?","['A)1/27', 'B)1/18', 'C)1/61', 'D)2/27', 'E)None']","Explanation: This is a simple division series; each number is divisible by 3 of the previous number. In other terms to say, the number is divisible by 3 successively to get the next result.
+9/3 = 3
+3/3 = 1
+1/3 = 1/3
+(1/3)/3 = 1/9
+(1/9)/3 = 1/27 and so on.
+Answer: Option A",A,1,15344
+39782,"If jeya rows 21 km upstream and 56 km down steam taking 3 hours each, then the speed of the stream","['A)1.5 kmph', 'B)0.2 kmph', 'C)0.3 kmph', 'D)0.4 kmph', 'E)0.5 kmph']","Speed upstream = 21/3 = 7 kmph
+Speed down stream = 56/7 = 8 kmph
+Speed of stream = ½ (8-7) = 0.5 kmph
+ANSWER:E",E,2,42421
+97433,"Set A {3,3,3,4,5,5,5} has a standard deviation of 1. What will the standard deviation be if every number in the set is multiplied by 3?","['A)A)1', 'B)B)2', 'C)C)4', 'D)D)3', 'E)E)16']","Points to remember -
+1. If oneAdd/Subtractthe same amont from every term in a set, SD doesn't change.
+2. If oneMultiply/Divideevery term by the same number in a set, SD changes by same number.
+Hence the answer to the above question is D",D,3,2811
+30133,"The area of a square field 3136 sq m, if the length of cost of drawing barbed wire 3 m around the field at the rate of Rs.1.00 per meter. Two gates of 1 m width each are to be left for entrance. What is the total cost?","['A)s.666', 'B)s.1140', 'C)s.999', 'D)s.1085', 'E)s.1020']","a2 = 3136 => a = 56
+56 * 4 * 3 = 672 – 6 = 666 * 1.0 = 666
+ANSWER:A",A,4,62095
+92277,"There are three different pipes used to fill a pool: pipe x, pipe y, and pipe z. Pipe x can fill the pool in a days, pipe y in b days, and pipe z in c days, where a > b > c. When all three pipes are used together to fill a pool, it takes d days to fill the pool. Which of the following must be true?
+I. d<c
+II. d>b
+III. c/3<d<a/3","['A)II', 'B)I', 'C)III', 'D)I&II', 'E)II &III']","Name T = full pool
+X fills a pool in a days ==> 1 day X fills: T/a
+Y fills a pool in b days ==> 1 day Y fills: T/b
+Z fills a pool in c days ==> 1 day Z fills: T/c
+1 day (X+Y+Z) together fill: T(1/a + 1/b + 1/c)
+d days (X+Y+Z) together fill: T
+==> d = Tx1 / T(1/a+1/b+1/c) = abc/(ab+bc+ca)
+A
+==>d = abc/(ab+bc+ca)
+d cannot be greater than c ; d is greater than b ; d is greater than c/3 but not less than a/3",A,0,56016
+80591,The sum of how many terms of the series 6 + 12 + 18 + 24 + … is 1800,"['A)16', 'B)22', 'C)24', 'D)18', 'E)26']","Let the number of terms be N.
+Then, according to the formula,
+=> 1800 = N/2[2A+(N-1)D] , where A = First-Term, D = Common-Difference.
+=> 3600 = N[12 + (N-1)6]
+=> 3600 =N[6 + 6N]
+=> 6N^2 + 6N - 3600 = 0.
+=> 6N^2 + 150N - 144n - 3600 = 0
+=> 6N(N + 25)-144(N+25)
+=> N = -25, 24
+Hence, the number of terms is 24.
+ANSWER:B",B,1,53767
+67807,How much time does a train 100 metres long running at 72 km/hr take to pass a pole?,"['A)7.9s', 'B)2.5s', 'C)5s', 'D)7.6s', 'E)7.4s']","Explanation:
+72 km/hr = 72 * 5/18 = 20 m/s
+Speed = distance/time; v = d/t
+20 = 100/t
+t = 5s
+ANSWER: C",C,2,51519
+49693,Two dice are thrown together. What is the probability that the sum of the number on the two faces is divisible by 4?,"['A)2/9', 'B)1/9', 'C)1/4', 'D)1/3', 'E)1/2']","Clearly n(S) = 6 x 6 = 36
+Let E be the event that the sum of the numbers on the two faces is divided by 4.
+E= {(1,3), (2,2), (2,6), (3,1), (3,5), (4,4), (5,3), (6,2), (6,6)}
+n(E) = 9
+Hence, P(E) = n(E)/n(S) = 9/36 = 1/4
+ANSWER:C",C,3,36379
+64956,A dishonest dealer professes to sell his goods at Cost Price but still gets 20% profit by using a false weight. What weight does he substitute for a kilogram?,"['A)833 1/7 grams', 'B)833 1/3 grams', 'C)833 8/3 grams', 'D)933 1/3 grams', 'E)833 1/4 grams']","If the cost price is Rs.100, then to get a profit of 20%, the selling price should be Rs.120.
+If 120kg are to be sold, and the dealer gives only 100kg, to get a profit of 20%.
+How many grams he has to give instead of one kilogram(1000 gm).
+120 gm ------ 100 gm
+1000 gm ------ ?
+(1000 * 100)/120 = 2500/3 = 833 1/3 grams.
+Answer:B",B,4,1420
+94417,"The 4 sticks in a complete bag of Pick-Up Sticks are all straight-line segments of negligible width, but each has a different length: 1 inch, 2 inches, 3 inches, and 4 inches, respectively. If Tommy picks a stick at random from each of 3 different complete bags of Pick-Up Sticks, what is the probability Z that Tommy CANNOT form a triangle from the 3 sticks?","['A)11/32', 'B)13/32', 'C)15/32', 'D)17/32', 'E)19/32']","In order to form a triangle, the sum of two sides must be greater than the third side.
+So we can choose the combination of numbers which will NOT result in a triangle.
+Favorable outcomes:
+1,1,4 (4>1+1): 3 ways of arriving at this (1,1,4), (1,4,1), (4,1,1) or
+1,2,4 (4>1+2): 6 ways of arriving at this (1,2,4), (1,4,2), (2,1,4), (2,4,1), (4,1,2), (4,2,1) which is same as 3!
+1,3,4 (4=1+3): 6 ways of arriving at this
+2,2,4 (4=2+2): 3 ways of arriving at this
+1,1,3 (3>1+1): 3 ways of arriving at this
+1,2,3 (3=1+2): 6 ways of arriving at this
+1,1,2 (2+1+1): 3 ways of arriving at this
+Overall favourable outcomes: 30
+Total outcomes: 4*4*4 = 64 (4 ways of choosing a stick from each of the 3 bags)
+Probability Z that a triangle is not formed = 30/64 = 15/32
+C is the correct option here.",C,0,11316
+92234,Two numbers are respectively 50% and 100% more than a third number. The percentage that is first of the second is?,"['A)65%', 'B)83%', 'C)27%', 'D)42%', 'E)75%']","I II III
+150 200 100
+200----------150
+100-----------? => 75%
+Answer:E",E,1,67386
+11463,A person standing on a railway platform noticed that a train took 21 seconds to completely pass through the platform which was 84m long and it took 9 seconds in passing him.Find the speed of the train?,"['A)6m/sec', 'B)5m/sec', 'C)12m/sec', 'D)7m/sec', 'E)None']","Let the length of the train be x m.
+then, then train covers x meters in 9 seconds and (x+84)m in 21 seconds.
+Therefore, x/9=(x+84)/21 =63m
+So, the length of the train=63m
+Speed of the train=63/9=7m/sec
+Answer: Option D",D,2,30141
+27412,"If the average (arithmetic mean) of the four numbers 5, 15, 30, and (N + 1) is 30, then N =","['A) 19', 'B) 20', 'C) 69', 'D) 78', 'E) 292']","5+15+30+N+1= 30x 4 = 120
+=>N +51 = 120
+=>N=69
+Answer C",C,3,59016
+61824,"A certain country had a total annual expenditure of $1.2x10^12. If the population of the country was 240 million last year, what was the per capita expenditure?","['A)$500', 'B)$1000', 'C)$2000', 'D)$3000', 'E)$5000']","Explanation:
+In scientific notation 240 million is 2.4x10^8. So the per capita expenditure was:
+($1.2x10^12)/(2.4x10^8)=($1.2)/(2.4)x10^12-8=$0.5x10^4=$5000
+Answer: Option E",E,4,57984
+89267,"A basketball is dropped from a height of 20 feet. If it bounces back up to a height that is exactly half of its previous height, and it stops bouncing after hitting the ground for the fourth time, then how many total feet will the ball have traveled after 2 full bounces.","['A)50', 'B)55', 'C)60', 'D)75', 'E)100']","Initial distance = 40 feet
+first bounce = 20 feet up + 20 feet down = 40 feet
+second bouche = 10 feet up + 10 feet down = 20 feet
+total distance covered = 40+40+20= 100
+ANSWER IS E",E,0,31998
+52315,"What is the measure of the radius of the circle that circumscribes a triangle whose sides measure 11, 60 and 61?","['A)6.5', 'B)12.5', 'C)28', 'D)30.5', 'E)40']","Some of pyhtagron triplets we need to keep it in mind.
+Like {( 2,3,5) , ( 5,12,13) ,( 7, 24,25), ( 11, 60,61).
+So now we know the triangle is an right angle triangle. The circle circumscribes the triangle.
+The circumraduis of the circle that circumscribes the right angle triangle = hypotanse / 2 = 61 / 2 = 30.5
+Ans. D",D,1,2624
+79523,"Pipe A can fill a tank in 5 hr, pipe B in 10hr and pipe C in 30hr. If all the pipes are open in how many hours will tank be filled?","['A)1hr', 'B)2hr', 'C)3hr', 'D)4hr', 'E)5hr']","Part filled by (A+B+C) in 1hour = 1/5 + 1/10 + 1/30 = 1/3
+All the 3 pipes together will fill the tank in 3hours
+Answer is C",C,2,18249
+49384,"If the average (arithmetic mean) of five consecutive negative integers is 2k – 1, what is the difference V between the greatest and least of the five integers?","['A)4K', 'B)4k^2 -4k', 'C)4-4k', 'D)4', 'E)4k+4']","(n-2 + n - 1 + n + n + 1 + n + 2)/5 = 2k - 1
+=> n = 10k - 5
+Greatest = n + 2 = 10k - 5 + 2 = 10k - 3
+Least = n - 2 = 10k - 5 - 2
+=> Difference V= 10k - 3 - (10k - 7)
+= 4
+Answer - D",D,3,18333
+72308,"On a summer camp, 25% of the campers paid $110 each, 35% paid $80 each and the rest paid $65 each. What percentage of the total amount paid came from the campers who paid $80?","['A)18%', 'B)21%', 'C)33.35', 'D)33.3%', 'E)37.5%']","let the total no of campers be 100
+total amount = (25*110)+(35*80)+(40*65) = 2750+2800+2600= $8150
+required percentage = (2800/8150)*100=33.35%
+C",C,4,18651
+88610,The average age of three boys is 48 years and their ages are in proportion 2:5:5. What is the age in years of the youngest boy?,"['A)30', 'B)23', 'C)24', 'D)26', 'E)40']","2x + 5x + 5x = 144
+x =12
+2x = 24
+Answer: C",C,0,13286
+82157,"The breadth of a rectangular field is 60% of its length. If the perimeter of the field is 800 m, find out the area of the field.","['A)37500', 'B)38000', 'C)38500', 'D)39000', 'E)39500']","Given that breadth of the rectangular field is 60% of its length.
+⇒b=60l100=3l5
+perimeter of the field =800 m
+⇒2(l+b)=800⇒2(l+3l5)=800⇒l+3l5=400⇒8l5=400⇒l5=50⇒l=5×50=250 m
+b=3l5=3×2505=3×50=150 m
+Area =lb=250×150=37500 m2
+Answer is A.",A,1,33514
+21902,A train running at the speed of 60 km/hr crosses a pole in 15 seconds. What is the length of the train?,"['A)120 metres', 'B)180 metres', 'C)324 metres', 'D)250 metres', 'E)150 metres']","Speed= 60 x	5/18	m/sec	= 50/3	m/sec.
+Length of the train = (Speed x Time).
+Length of the train = 50/3	x 15 m = 250 m.
+Option D",D,2,36254
+3249,If two numbers are in the ratio 4:3. If 10 is added to both of the numbers then the ratio becomes 5:4 then find the biggest number.,"['A)60', 'B)80', 'C)70', 'D)40', 'E)100']","4:3
+4x + 20 : 3x + 20 =5 : 4
+4[4x + 20] =5[3x + 20]
+16x + 80 = 15x + 100
+16x -15x = 100 - 80
+x = 20
+Then biggest number is = 4x
+4x = 80
+B",B,3,15982
+96027,A man took loan from a bank at the rate of 12% p.a. simple interest. After 3 years he had to pay Rs. 5400 interest only for the period. The principal amount borrowed by him was:,"['A)34299', 'B)28789', 'C)15000', 'D)28999', 'E)15022']",Answer: C) Rs.15000,C,4,5070

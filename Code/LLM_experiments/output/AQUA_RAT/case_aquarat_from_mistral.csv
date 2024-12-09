@@ -1,0 +1,279 @@
+,question,options,rationale,correct,cluster,index
+89939,"The average of 11 results is 42, if the average of first five results is 49 and that of the last seven is 52. Find the fifth result?","['A)145', 'B)146', 'C)147', 'D)148', 'E)149']","1 to 11 = 11 * 42= 462
+1 to 5 = 5 * 49 = 245
+5 to 11 = 7 * 52 = 364
+5th = 245 + 364 – 462 = 147
+ANSWER:C",C,0,11328
+56869,"The compound ratio of 2/3, 6/7, 1/3 and 1/8 is given by?","['A)1/56', 'B)1/42', 'C)1/40', 'D)1/41', 'E)1/47']","2/3 * 6/7 * 1/3 * 1/8 = 1/42
+Answer:B",B,1,50471
+62077,"Two cars are traveling towards each other. If car A is traveling at a speed of 50 mph and car B is traveling 12% slower, how much time will it take the cars to meet if the initial distance between the two is 705 miles?","['A)Six hours and 30 minutes.', 'B)Seven hours and 30 minutes.', 'C)Eight hours and 20 minutes.', 'D)Nine hours and 15 minutes.', 'E)Ten hours and 20 minutes.']","since they are travelling towards each other, the total speed is 50 mph + 50*0.88 = 94 mph (0.88 since, the other car is 12% less than first one)
+Distance to be covered is 705, so time taken = distance/speed = 705/94 = 7.5 hours or 7 hours and 30 mins.
+Answer is B: Seven hours and 30 minutes.",B,2,54361
+14873,"If x < y < 0, which of the following must be true?","['A)x+y is a positive integer', 'B)x+y is a negative integer', 'C)xy is a negative integer', 'D)x/y is a negative integer', 'E)2x/y is a negative integer']","Given x, y are less than 0. So both will be negative integers
+negative + negative = negative
+negative * negative = positive
+negative / negative = positive
+So, option B is true and all others are false.
+Answer : B",B,3,26780
+5733,"A certain company plans to sell Product X for p dollars per unit, where p is randomly chosen from all possible positive values not greater than 100. The monthly manufacturing cost for Product X (in thousands of dollars) is 12 - p, and the projected monthly revenue from Product X (in thousands of dollars) is p(6 - p). If the projected revenue is realized, what is the probability that the company will NOT see a profit on sales of Product X in the first month of sales?","['A)0', 'B)1/100', 'C)1/25', 'D)99/100', 'E)1']","Profit=Revenue-Cost=p(6 - p)-(12-p).
+Let's see for which range of p company will see a profit on sales, so for which range of p the following holds true: p(6−p)−(12−p)>0 --> 6p−p2−12+p>0 --> p2−7p+12<0 --> (p−4)(p−3)<0 --> 3<p<4. So the probability that company will see a profit on sales is 1100 (1 unit range of p out of 100).
+The probability that the company will NOT see a profit on sales is 1−1100=99100.
+Answer: D.",D,4,20568
+64200,The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.,"['A)48', 'B)48.55', 'C)46', 'D)34.5', 'E)50.0']","Avg weight of 16 boys = 50.25
+tot weight of 16 boys = 50.25 * 16
+avg weight of remaining 8 boys = 45.15
+tot weight of remaining 8 boys=45.15*8
+tot weight of remaining 8 boys = 45.15 * 8
+tot weight of all boys = 50.25 * 16 + 45.15*18
+=24
+avg weight=(50.25*16)+(45.15*8)/24=48.55
+ANSWER B",B,0,64785
+22102,"4/15 of 5/7 of a number is greater than 4/9 of 2/5 of the same number by 8.
+What is half of that number?","['A)315', 'B)310', 'C)314', 'D)318', 'E)319']","Let the number be x. then 4/15 of 5/7 of x-4/9 of 2/5 of x=8<=>4/21x-8/45x=8
+<=>(4/21-8/45)x=8<=>(60-56)/315x=8<=>4/315x=8
+x=(8*315)/4=630<=>1/2x=315
+Answer is A.",A,1,51944
+57512,"Two persons starting from the same place walk at a rate of 9kmph and 12.5kmph respectively. What time will they take to be 24.5km apart, if they walk in the same direction?","['A)7 hrs', 'B)22 hrs', 'C)5 hrs', 'D)12 hrs', 'E)16 hrs']","The relative speed of the boys = 12.5kmph – 9kmph
+= 3.5 kmph
+Distance between them is 24.5 km
+Time= 24.5km / 3.5 kmph = 7 hrs
+Answer : A",A,2,24502
+74165,The sum of three consecutive even numbers is 60. Find the middle number of the three?,"['A)14', 'B)60', 'C)18', 'D)70', 'E)45']","Three consecutive even numbers (2P - 2), 2P, (2P + 2).
+(2P - 2) + 2P + (2P + 2) = 60
+6P = 60 => P = 10.
+The middle number is: 10P = 60.
+ANSWER:B",B,3,803
+55809,"A sun is divided among X, Y and Z in such a way that for each rupee X gets, Y gets 45 paisa and Z gets 30 paisa. If the share of Y is RS. 63, what is the total amount?","['A)166', 'B)105', 'C)178', 'D)177', 'E)245']","x:y:z = 100:45:30
+20:9:6
+9 --- 63
+35 --- ? => 245
+Answer: E",E,4,60019
+75718,The total age of A and B is 15 years more than the total age of B and C. C is how many year younger than A,"['A)11', 'B)12', 'C)13', 'D)14', 'E)15']","Explanation:
+Given that A+B = 15 + B + C
+=> A ? C = 15+ B ? B = 15
+=> C is younger than A by 15 years
+Answer: Option E",E,0,39762
+28131,"Rs. 5200 is divided into three parts A, B and C. How much A is more than C if their ratio is 1/2:1/3:1/4?","['A)1600', 'B)1500', 'C)1200', 'D)600', 'E)100']","1/2:1/3:1/4
+= 6:4:3
+3/13*5200
+= 1200
+Answer: C",C,1,15570
+34225,A train 400 m long passed a pole in 40 sec. How long will it take to pass a platform 600 m long?,"['A)28 sec', 'B)100 sec', 'C)85 sec', 'D)16 sec', 'E)15 sec']","Speed = 400/40 = 10 m/sec.
+Required time = (400 + 600)/10
+= 100 sec.
+Answer:B",B,2,30882
+86398,"Each digit 1 through 5 is used exactly once to create a 5-digit integer. If the 3 and the24 cannot be adjacent digits in the integer, how many 5-digit integers are possible?","['A) 48', 'B) 72', 'C) 76', 'D) 78', 'E) 90']","Number of arrangements using 5 distinct digits = 5!
+Number of arrangements in which 3 and 4 are adjacent - consider 3 and 2 together as one group. Now you have 4 numbers/groups to arrange which can be done in 4! ways. In each of these arrangements, 3 and 2 can be arranged as 32 or 23.
+Number of arrangements in which 3 and 4 are not adjacent = 5! - 2*4! = 72
+Answer : B",B,3,22534
+93199,"A person purchases 90 clocks and sells 40 clocks at a gain of 10% and 50 clocks at a gain of 20%. If he sold all of them at a uniform profit of 15%, then he would have got Rs. 40 less. The cost price of each clock is?","['A)16', 'B)26', 'C)80', 'D)26', 'E)92']","Let C.P. of clock be Rs. x.
+Then, C.P. of 90 clocks = Rs. 90x.
+[(110% of 40x) + (120% of 50x)] - (115% of 90x) = 40
+44x + 60x - 103.5x = 40
+0.5x = 40 => x = 80
+Answer:C",C,4,17312
+37606,"A certain stock exchange designates each stock with a 1, 2, or 3 letter code, where each letter is selected from the 26 letters of the alphabet. If the letters may be repeated and if the same letters used in a different order constitute a different code, how many different stocks is it possible to uniquely designate with these codes?","['A)2,951', 'B)8,125', 'C)15,600', 'D)16,302', 'E)18,278']","if each letter is the same: 26 different combinations
+2 letters the same 26^2
+all different 26^3
+26^3 + 26^2 + 26 = 18278
+Answer E.",E,0,58223
+90738,"A unit square is subdivided into a grid composed of 9 squares each with sidelength 1/3 . A circle
+is drawn through the centers of the 4 squares in the outermost corners of the grid. Compute the
+area of this circle.","['A)1π/9', 'B)3π/9', 'C)5π/9', 'D)7π/9', 'E)2π/9']","The circle's radius lies between the centers of two diagonally adjacent small squares.
+Therefore it is equal to the diagonal of one small square, and r =√2/3.The circle's area is thus
+2π/9 .
+correct answer E",E,1,53042
+74630,"A rower can row 7 km/h in still water. When the river is running at 1 km/h, it takes the rower 1 hour to row to Big Rock and back. How many kilometers is it to Big Rock?","['A)3.19', 'B)3.28', 'C)3.35', 'D)3.43', 'E)3.56']","Let x be the distance to Big Rock.
+time = x/6 + x/8 = 1
+x = 48/14 = 3.43 km
+The answer is D.",D,2,18662
+62291,"1,257
+1,275
+1,527
+........
+........
++7,521
+The addition problem above shows four of the 24 different integers that can be formed by using each of the digits 1,2,5 and 7 exactly once in each integer. What is the sum E of the 24 integers ?","['A) 26,996', 'B) 44,406', 'C) 60,444', 'D) 66,660', 'E) 99,990']","This is the way i solved it :
+Total no. of different combos = 24, total digits 4 therefore each digit must repeat 24/4 = 6 times in each row .. So the right most row would add up to 1x6 + 2x6 + 5x6 + 7x6 = 6+12+30+42 = 90 .. Each row would add up to 90, so 90 in the first means we have 9 that carries over and we get 0 , the second time its 90+9 and 9 stays and one 9 goes to the row to the left, so the last two digits of the SUM E should be 90 (E) .. We could go on and solve the exact number but since only one answer choice has the last digits as 90 we needn't go any further..",E,3,8864
+15032,"The ratio of the incomes of X and Y is 6:4 and the ratio of their expenditure is 5:3. If at the end of the year, each saves $2000 then the income of X is?","['A)$11000', 'B)$10000', 'C)$12000', 'D)$10500', 'E)$10600']","Let the income of X and Y be $6x and $4x
+Let their expenditures be $5y and $3y
+6x-5y = 2000-------1)
+4x-3y = 2000-------2)
+From 1) and 2)
+2x-2y = 0 => x = y
+x = 2000
+Income of X 5 * 2000 = $10000
+Answer : B",B,4,60635
+55537,"The probability of a lottery ticket being a prized ticket is 0.2. When 4 tickets are purchased, the probability of winning a prize on atleast one ticket is","['A)0.5928', 'B)0.5904', 'C)0.2788', 'D)0.2699', 'E)0.2998']","P(winning prize atleast on one ticket)
+= 1 - P(""Losing on all tickets"")
+= 1 - (0.8)4 = (1 + (0.8)2)(1 - (0.8)2)
+= (1.64)(0.36) = 0.5904
+Answer:B",B,0,13125
+54088,"Sum of three numbers 275, If the first number be twice then second and third number be one third of the first, then the second number is","['A)A)70', 'B)B)71', 'C)C)72', 'D)D)73', 'E)E)75']","Explanation:
+Let the second number is x, then first is 2x, and third is 1/3(2x)
+=>2x+x+2x/3=275
+<=>11x/3=275
+=>x=75
+Answer: Option E",E,1,428
+14410,"A man can swim in still water at 4.5 km/h, but takes twice as long to swim upstream than downstream. The speed of the stream is?","['A)5', 'B)8', 'C)1', 'D)6', 'E)1.5']","Explanation:
+M = 4.5
+S = x
+DS = 4.5 + x
+US = 4.5 + x
+4.5 + x = (4.5 - x)2
+4.5 + x = 9 -2x
+3x = 4.5
+x = 1.5
+Answer: E",E,2,40184
+70598,"In the x-y plane, the area of the region bounded by the graph of |x+y| + |x-y| = 8 is","['A)8', 'B)12', 'C)256', 'D)20', 'E)24']","I've never seen such kind of question in GMAT before.
+OK there can be 4 cases:
+|x+y| + |x-y| = 8
+A. x+y+x-y = 8 --> x=4
+B. x+y-x+y = 8 --> y=4
+C. -x-y +x-y= 8 --> y=-4
+D. -x-y-x+y=8 --> x=-4
+The area bounded by 4 graphs x=4, x=-4, y=4, y=-4 will be square with the side of 4 so the area will be 16*16=256
+Answer: C",C,3,12424
+28541,"A man sells an article at a gain 15%. If he had bought it at 10% less and sold it for 4 less, he would have gained 25%. Find the cost price of the article.","['A)150', 'B)160', 'C)170', 'D)180', 'E)None of these']","Let the C.P. be 100
+First S.P. = 115
+Second C.P. = 90
+Second S.P = 125% of 90 = 112.50
+Difference of two selling prices is 115 – 112.50 = 2.50 and C.P. of the article is 100
+But actual difference is 4.
+∴ C.P. = 100⁄2.50 × 4 = 160.
+Answer B",B,4,66380
+9226,The marks obtained by Polly and Sandy are in the ratio 5:6 and those obtained by Sandy and Willy are in the ratio of 3:2. The marks obtained by Polly and Willy are in the ratio of...?,"['A)3:2', 'B)5:4', 'C)7:6', 'D)9:8', 'E)11:10']","Polly : Sandy = 5:6
+Sandy : Willy = 3:2 = 6:4
+Polly : Sandy : Willy = 5:6:4
+Polly : Willy = 5:4
+The answer is B.",B,0,22597
+58860,"Difference between two numbers is 5, six times of the smaller lacks by 6 from the four times of the greater. Find the numbers?","['A)5,14', 'B)6,4', 'C)12,7', 'D)7,5', 'E)4,7']","Answer: Option C
+x â€“ y = 5
+4x â€“ 6y = 6
+x = 12 y = 7",C,1,49868
+26850,A train crosses a bridge of length 800 m in 45 seconds and a lamp post on the bridge in 15 seconds. What is the length of the train in metres?,"['A)375 m', 'B)750 m', 'C)400 m', 'D)800 m', 'E)300 m']","Let Length of Train = L
+Case-1: Distance = 800+L (While crossing the bridge)
+Time = 45 Seconds
+i.e. Speed = Distance / Time = (800+L)/45
+Case-2: Distance = L (While passing the lamp post)
+Time = 15 Seconds
+i.e. Speed = Distance / Time = (L)/15
+But Since speed has to be same in both cases so
+(800+L)/45 = (L)/15
+i.e. 800 + L = 3L
+i.e. 2L = 800
+i.e. L = 400
+Answer: option C",C,2,43050
+21796,"If 1/(m – 2) = 1/(m + 2) + 1/(m – 1), which of the following is a possible value of m?","['A)0', 'B)-1', 'C)-2', 'D)1', 'E)2']","Multiply by (m-2)*(m+2)*(m-1) throughout to get:
+(m+2)*(m-1) = (m-2)*(m-1) + (m+2)(m-2)
+Of the given options, only m=0 satisfies this.
+Answer : A",A,3,38632
+87996,If A lends Rs.3500 to B at 10% per annum and B lends the same sum to C at 14% per annum then the gain of B in a period of 3 years is?,"['A)400', 'B)410', 'C)460', 'D)420', 'E)430']","(3500*4*3)/100 => 420
+Answer: D",D,4,54229
+19146,"In a group of people, if 30 people were made to stand in each column, 16 columns could be formed. If 40 people were made to stand in a column, how many columns could be formed?","['A)12', 'B)14', 'C)16', 'D)18', 'E)20']","16*30 = 40*n
+n = 12
+The answer is A.",A,0,17975
+22554,Three seventh of a number is 12 more than 40% of that number. What will be the 30% of that number?,"['A)A)148', 'B)B)210', 'C)C)63', 'D)D)248', 'E)E)258']","3/7 x – 40/100 x = 12
+x = 35 * 12
+35 * 12 * 30/100 = 126/2 = 63
+ANSWER:C",C,1,32083
+92474,"A walks at 30 kmph and 30 hours after his start, B cycles after him at 42 kmph. How far from the start does B catch up with A?","['A)1200km', 'B)1500km', 'C)2000km', 'D)2500km', 'E)3150km']","Suppose after x km from the start B catches up with A. Then, the difference in the time taken by A to cover x km and that taken by B to cover x km is 30 hours.
+x/30 - x/42 = 30
+x = 3150 km
+Answer is E",E,2,58641
+96462,The sum of three consecutive even numbers is 366. Find the middle number of the three?,"['A)111', 'B)123', 'C)122', 'D)152', 'E)142']","Middle number =366/3
+=122
+Ans C",C,3,10455
+35503,"A man sells an article at a profit of 25%. If he had bought it at 20% less and sold it for Rs.6.30 less, he would have gained 30%. Find the cost of the article.","['A)30', 'B)40', 'C)50', 'D)60', 'E)70']","Let C.P=100
+Gain=25%
+S.P=125
+Supposed C.P=80
+Gain=30%
+S.P=(130*80)/100=104
+Diff=(125-104)=21
+Diff 21 when C.P=100
+then Diff 6.30 when C.P=(100*6.30)/21=30
+ANSWER:A",A,4,63271
+59115,"A car gets 24 miles to the gallon. If it is modified to use a solar panel, it will use only 75 percent as much fuel as it does now. If the fuel tank holds 12 gallons, how many more miles will the car be able to travel, per full tank of fuel, after it has been modified?","['A)96', 'B)100', 'C)104', 'D)108', 'E)112']","Originally, the distance the car could go on a full tank was 12*24=288 miles.
+After it has been modified, the car can go 24/0.75=32 miles per gallon.
+On a full tank, the car can go 32*12= 384 miles, thus 96 miles more.
+The answer is A.",A,0,43523
+23375,"The average of 20, 40 and 150 is twice the average of 10, 30, and which of the following ?","['A)1)10', 'B)2)30', 'C)3)65', 'D)4)90', 'E)5)180']","20 40 150 = 150+60 = 210/3 = 70.
+70/2 = 35
+10 30 x = 40+x/3 should be smaller than 35
+cross multiply 35*3-40 = 65
+C",C,1,17367
+27504,"A man rows his boat 105 km downstream and 45 km upstream, taking 2 1/2 hours each time. Find the speed of the stream?","['A)5 kmph', 'B)7 kmph', 'C)12 kmph', 'D)8 kmph', 'E)1 kmph']","Speed downstream = d/t = 105/(2 1/2) = 42 kmph
+Speed upstream = d/t = 45/(2 1/2) = 18 kmph
+The speed of the stream = (42 - 18)/2 = 12 kmph
+Answer:C",C,2,8279
+19531,The graph of a quadratic function and the graph of a linear function in the xy plane can intersect in at most how many points,"['A)one', 'B)Two', 'C)Three', 'D)Four', 'E)More than four']","i also thought 2 but i think we need to consider linear function like y=|X| then it could intersect at 6 points.
+E",E,3,33485
+83001,"What profit percent is made by selling an article at a certain price, if by selling at 2/3rd of that price, there would be a loss of 30%?","['A)20%', 'B)29%', 'C)70%', 'D)27%', 'E)5%']","SP2 = 2/3 SP1
+CP = 100
+SP2 = 70
+2/3 SP1 = 70
+SP1 = 105
+100 --- 105 => 5%
+Answer: E",E,4,2086
+26831,"In a 1000 m race, A beats B by 50 m and B beats C by 100 m. In the same race, by how many meters does A beat C?","['A)156 m', 'B)140 m', 'C)145 m', 'D)169 m', 'E)172 m']","C
+145 m
+By the time A covers 1000 m, B covers (1000 - 50) = 950 m.
+By the time B covers 1000 m, C covers (1000 - 100) = 900 m.
+So, the ratio of speeds of A and C =
+1000/950 * 1000/900 = 1000/855 So, by the time A covers 1000 m, C covers 855 m.
+So in 1000 m race A beats C by 1000 - 855 = 145 m.",C,0,32421
+84385,Count the numbers between 10 - 99 which yield a remainder of 3 when divided by 9 and also yield a remainder of 2 when divided by 5?,"['A)Two', 'B)Five', 'C)Six', 'D)Four', 'E)One']","Answer = A) Two
+Numbers between 10 - 99 giving remainder 3 when divided by 9 = 12, 21, 30, 39, 48, 57, 66, 75, 84, 93
+The Numbers giving remainder 2 when divided by 5 = 12, 57 = 2",A,1,2518
+32660,A train running at the speed of 60 km/hr crosses a pole in 3 seconds. Find the length of the train.,"['A)60', 'B)50', 'C)75', 'D)100', 'E)120']",":
+Speed = 60*(5/18) m/sec = 50/3 m/sec
+Length of Train (Distance) = Speed * Time
+(50/3) * 3 = 50 meter
+Answer:B",B,2,10137
+50013,"If n is an integer greater than 7, which of the following must be divisible by 3?","['A)1. n (n+1) (n-4)', 'B)2. n (n+2) (n-1)', 'C)3. n (n+3) (n-5)', 'D)4. n (n+4) (n-2)', 'E)5. n (n+5) (n-6)']","We need to find out the number which is divisible by three,
+In every 3 consecutive integers, there must contain 1 multiple of 3.
+So n+4 and n+1 are same if we need to find out the 3's multiple. replace all the numbers which are more than or equal to three
+1. n (n+1) (n-4) = > n(n+1)(n-1) = > (n-1)n(n+1)
+2. n (n+2) (n-1) = > n(n+2)(n-1) = > (n-1)n(n+1)
+3. n (n+3) (n-5) = > n(n+0)(n-2) = > (n-2)n(n)
+4. n (n+4) (n-2) = > n(n+1)(n-2) = > (n-2)n(n+1)
+5. n (n+5) (n-6) = > n(n+2)(n-0) = > (n)n(n+2)
+from the above onlyoption Ais product of consecutive three numbers.
+D",D,3,61982
+16632,"A merchant gains or loses, in a bargain, a certain sum. In a second bargain, he gains 280 dollars, and, in a third, loses 20. In the end he finds he has gained 120 dollars, by the three together. How much did he gain or lose bv the first ?","['A)80', 'B)-140', 'C)140', 'D)120', 'E)None']","In this sum, as the profit and loss are opposite in their nature, they must be distinguished by contrary signs. If the profit is marked +, the loss must be -.
+Let x = the sum required.
+Then according to the statement x + 280 - 20 = 120
+And x = -140.
+Answer B",B,4,35262
+88770,"P is 30% more efficient than Q. P can complete a work in 23 days. If P and Q work together, how much time will it take to complete the same work?","['A)9', 'B)11', 'C)13', 'D)15', 'E)17']","Explanation :
+Work done by P in 1 day = 1/23
+Let work done by Q in 1 day = q
+q × (130/100) = 1/23
+=> q = 100/(23×130) = 10/(23×13)
+Work done by P and Q in 1 day = 1/23 + 10/(23×13) = 23/(23×13)= 1/13
+=> P and Q together can do the work in 13 days
+Answer : Option C",C,0,21876
+80165,How many prime numbers are between 29/4 and 87/5?,"['A)1', 'B)2', 'C)3', 'D)4', 'E)5']","29/4 = 7.xxx
+87/5 = 17.xxx
+So we need to find Prime numbers between 7 (Exclusive) - 16 (Inclusive)
+There are 2 Prime numbers 1113
+Hence answer will be (B) 2
+B",B,1,62256
+47703,A man can row his boat with the stream at 18 km/h and against the stream in 4 km/h. The man's rate is?,"['A)1 kmph', 'B)3 kmph', 'C)8 kmph', 'D)7 kmph', 'E)5 kmph']","DS = 18
+US = 4
+S = ?
+S = (18 - 4)/2 = 7 kmph
+Answer: D",D,2,57149
+6239,Find the numbers which are in the ratio 3:2:2 such that the sum of the first and the second added to the difference of the third and the second is 20?,"['A)12,8,8', 'B)4,4,22', 'C)9,3,32', 'D)9,6,12', 'E)9,2,23']","Let the numbers be a, b and c.
+a:b:c = 3:2:2
+Given, (a + b) + (c - b) = 20
+=> a + c = 20
+=> 3x + 2x = 20 => x =4
+a, b, c are 3x, 2x, 2x
+a, b, c are 12, 8, 8.
+Answer:A",A,3,14964
+93033,A sum of money at simple interest amounts to Rs. 825 in 3 years and to Rs. 850 in 4 years. The sum is?,"['A)s. 738', 'B)s. 750', 'C)s. 650', 'D)s. 730', 'E)s. 735']","S.I. for 1 year = (850 - 825) = Rs. 25
+S.I. for 3 years = 25 * 3 = Rs. 75
+Principal = (825 - 75) = Rs. 750.
+ANSWER:B",B,4,7949
