@@ -1,3 +1,0 @@
-H_LinGapE = 10375.413244890184
-H_UGapE = 4371.841450630256
-Is H_LinGapE < 2*H_UGapE? : False
