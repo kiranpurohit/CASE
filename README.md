@@ -1,8 +1,8 @@
-# CASE: Challenger Arm Sampling for Efficient In-Context Reasoning
+# Sample Efficient Demonstration Selection for In-Context Learning
 
 Codebase for the novel gap-index-based exemplar selection approach.
 
-Code is adopted from the repository https://github.com/clreda/linear-top-m, associated with AISTATS 2021 paper "Top-m identification for linear bandits". We extended their setup to implement our algorithm CASE with related changes for synthetic experiments and implementations for ICl exemplar selection for large language models. We thank the authors for making their code open-source.
+Code is adopted from the repository https://github.com/clreda/linear-top-m, associated with AISTATS 2021 paper "Top-m identification for linear bandits". We extended their setup to implement our algorithm CASE with related changes for synthetic experiments and implementations for exemplar selection for large language models. We thank the authors for making their code open-source.
 <p>
 <img src="CASE_overview.png"> </img>
 </p>
