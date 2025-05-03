@@ -1,6 +1,8 @@
 # Sample Efficient Demonstration Selection for In-Context Learning
 
-Codebase for the novel gap-index-based exemplar selection approach.
+This repository contains the implementation details of our novel gap-index-based exemplar selection approach for In-context Learning. https://aclanthology.org/2024.emnlp-main.307.pdf
+
+Project Page: https://kiranpurohit.github.io/CASE-Bandit/
 
 Code is adopted from the repository https://github.com/clreda/linear-top-m, associated with the AISTATS 2021 paper "Top-m identification for linear bandits". We extended their setup to implement our algorithm, CASE, with related changes for synthetic experiments and implementations for exemplar selection for large language models. 
 <p>
