@@ -1,6 +1,6 @@
 # Sample Efficient Demonstration Selection for In-Context Learning
 
-This repository contains the implementation details of our novel gap-index-based exemplar selection approach for In-context Learning. https://openreview.net/pdf?id=cuqvlLBQK6
+This repository contains the implementation details of our novel gap-index-based exemplar selection approach for In-context Learning. [https://openreview.net/pdf?id=cuqvlLBQK6](https://cse.iitkgp.ac.in/~sourangshu/files/2025-ICML-CASE.pdf)
 
 Project Page: https://kiranpurohit.github.io/CASE-Bandit/
 
