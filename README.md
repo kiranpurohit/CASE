@@ -1,4 +1,4 @@
-# Sample Efficient Demonstration Selection for In-Context Learning
+<img width="468" height="11" alt="image" src="https://github.com/user-attachments/assets/4de0b4b3-dc3a-4385-a727-7502e05110fb" /># Sample Efficient Demonstration Selection for In-Context Learning
 
 This repository contains the implementation details of our novel gap-index-based exemplar selection approach for In-context Learning. https://cse.iitkgp.ac.in/~sourangshu/files/2025-ICML-CASE.pdf
 
@@ -74,3 +74,11 @@ Alternatively, you can directly use the selected exemplars released by us in CAS
 ```
 
 All data for the 5 benchmarks can be found at Code/LLM_experiments/data
+
+# Acknowledgements
+
+Sourangshu Bhattacharya is grateful for the support of the DST ANRF Core Research Grant number CRG/2023/004600.
+
+
+
+
